@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Through
   - Ground
+  - ObjecttoPick
   layers:
   - Default
   - TransparentFX
