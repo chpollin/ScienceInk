@@ -17,8 +17,9 @@ public class PlayerManager : MonoBehaviour
         {
             case "currency":
                 // erhöhe die anzahl der mandeln
-                mandelCount++;
+                //mandelCount++;
                 //mandelNumberText.text = "X" + mandelCount.ToString();
+                Debug.Log("currency");
                 return true;
                 break;
             case "ingredient":
