@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class LiveCounter : MonoBehaviour
 {
-    public GameObject health1, health2, health3, gameOver;
+    //public GameObject health1, health2, health3, gameOver;
+    public GameObject health1, health2, health3;
     public static int health;
 
     void Start()
@@ -14,7 +15,7 @@ public class LiveCounter : MonoBehaviour
         health1.gameObject.SetActive(true);
         health2.gameObject.SetActive(true);
         health3.gameObject.SetActive(true);
-        gameOver.gameObject.SetActive(false);
+        //gameOver.gameObject.SetActive(false);
     }
 
     void Update()
