@@ -11,15 +11,26 @@ public class Inventory : MonoBehaviour
 
     private void Start()
     {
-        GiveItem(1);
-        GiveItem(0);
+        Debug.Log("Start");
+        //GiveItem(1);
+        //GiveItem(0);
+        //GiveItem(1);
+        
+    }
+
+
+    public void GiveItem(int item_id)
+    {
+        Item itemToAdd = itemDatabase.GetItemByID(item_id);
+        characterItems.Add(itemToAdd);
+        inventoryUI.AddNewItem(itemToAdd);
+        Debug.Log("Added item: " + itemToAdd.title);
     }
 
     public Item CheckForItem(int item_id)
     {
         return characterItems.Find(item => item.item_id == item_id);
     }
-
 
     public void RemoveItem(int item_id)
     {
@@ -30,14 +41,6 @@ public class Inventory : MonoBehaviour
             inventoryUI.RemoveItem(itemToRemove);
             Debug.Log("Item removed: " + itemToRemove.title); 
         }
-    }
-
-    public void GiveItem(int item_id)
-    {
-        Item itemToAdd = itemDatabase.GetItemByID(item_id);
-        characterItems.Add(itemToAdd);
-        inventoryUI.AddNewItem(itemToAdd);
-        Debug.Log("Added item: " + itemToAdd.title);
     }
 
 

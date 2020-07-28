@@ -19,11 +19,12 @@ public class PlayerManager : MonoBehaviour
                 // erhöhe die anzahl der mandeln
                 //mandelCount++;
                 //mandelNumberText.text = "X" + mandelCount.ToString();
-                Debug.Log("currency");
+                Debug.Log("Currency picked up");
                 return true;
                 break;
             case "ingredient":
                 // kochzutaten kommen ins inventar
+                 Debug.Log("Ingredient picked up");
                 return true;
                 break;
             default:

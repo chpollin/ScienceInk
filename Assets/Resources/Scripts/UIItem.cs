@@ -11,21 +11,22 @@ public class UIItem : MonoBehaviour
     private void Awake()
     {
         spriteImage = GetComponent<Image>();
-        UpdateItem(null);
     }
 
     public void UpdateItem(Item item)
     {
-        Debug.Log(this.item.icon);
         if(this.item != null)
         {
+            Debug.Log("UpdateItem: item exists" + item.item_id);
             spriteImage.color = Color.white;
             spriteImage.sprite = this.item.icon;
         }
         else
         {
-            spriteImage.color = Color.clear;
+            Debug.Log("UpdateItem: add Icon of "+ item.title + " to Inventory");
+            spriteImage.color = Color.white;
+            spriteImage.sprite = item.icon;
         }
-        Debug.Log("Item Updated " + item.item_id);
+        
     }
 }
