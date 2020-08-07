@@ -25,7 +25,11 @@ public class ItemDatabase : MonoBehaviour
     {
         items = new List<Item>() {
             new Item(0, "Kröte", "Eine leckere Kröte."),
-            new Item(1, "Kristall", "Ein magischer Kristall")
+            new Item(1, "Kristall", "Ein magischer Kristall"),
+            new Item(2, "Bohnenkraut", "ToDo"),
+            new Item(3, "Mangold", "ToDo"),
+            new Item(4, "Safran", "ToDo"),
+            new Item(5, "Kräuter", "ToDo")
         };
     }
 }
