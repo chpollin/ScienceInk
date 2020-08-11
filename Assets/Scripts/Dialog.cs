@@ -46,7 +46,7 @@ public class Dialog : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-           dialogPanel.SetActive(false);
+            dialogPanel.SetActive(false);
         }
     }
 }

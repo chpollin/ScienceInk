@@ -19,14 +19,17 @@ public class Pickup : MonoBehaviour
             {
                 RemoveItem();
                 // pick up and add item to the inventory
-                inventory.GiveItem(item_id);  
+                //ToDo Almond has id=100; select by tag would be better
+                if(item_id<99)
+                {
+                    inventory.GiveItem(item_id); 
+                } 
             }
         }
     }
 
     public void RemoveItem()
     {
-        
         AudioSource.PlayClipAtPoint(soundEffect, transform.position);
         Destroy(gameObject);
     }
