@@ -8,6 +8,7 @@ public class LiveCounter : MonoBehaviour
     //public GameObject health1, health2, health3, gameOver;
     public GameObject health1, health2, health3;
     public static int health;
+    public GameObject gameOverPanel;
 
     void Start()
     {
@@ -15,7 +16,6 @@ public class LiveCounter : MonoBehaviour
         health1.gameObject.SetActive(true);
         health2.gameObject.SetActive(true);
         health3.gameObject.SetActive(true);
-        //gameOver.gameObject.SetActive(false);
     }
 
     void Update()
@@ -44,6 +44,7 @@ public class LiveCounter : MonoBehaviour
                 health1.gameObject.SetActive(false);
                 health2.gameObject.SetActive(false);
                 health3.gameObject.SetActive(false);
+                gameOverPanel.gameObject.SetActive(true);
                 Time.timeScale = 0;
                 break;
 
