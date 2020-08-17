@@ -20,7 +20,7 @@ TagManager:
   - Player
   - Obstacle
   - Background
-  - 
+  - Currency
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2831839401
+    locked: 0
+  - name: Currency
+    uniqueID: 2364100881
     locked: 0

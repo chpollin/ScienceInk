@@ -12,6 +12,7 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject dialogPanel;
+    public AudioSource soundEffect;
 
     void Start()
     {
@@ -21,6 +22,8 @@ public class Dialog : MonoBehaviour
     void Update(){
         if(textDisplay.text == sentences[index])
         {
+           
+            
             continueButton.SetActive(true);
         }
     }
@@ -36,6 +39,7 @@ public class Dialog : MonoBehaviour
 
     public void NextSentence()
     {
+        soundEffect.Play();
         continueButton.SetActive(false);
         if (index < sentences.Length  - 1) { 
             index++;
