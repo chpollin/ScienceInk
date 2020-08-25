@@ -22,7 +22,7 @@ public class EnemyGraphics : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D collider)
     {
         LiveCounter.health -= 1;
     }

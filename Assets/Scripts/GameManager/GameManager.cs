@@ -9,17 +9,20 @@ public class GameManager : MonoBehaviour
 
     public float restartDelay = 1f;
 
+    //////////////////////////////////
     public void BacktoMainMenu()
     {
         gameHasEnded = true;
         SceneManager.LoadScene("Menu");
     }
 
+    //////////////////////////////////
     public void CompleteLevel()
     {
         Debug.Log("Level 1");
     }
 
+    //////////////////////////////////
     public void EndGame()
     {
         if (gameHasEnded == false)
@@ -29,7 +32,8 @@ public class GameManager : MonoBehaviour
             Invoke("Restart", restartDelay);
         }
     }
-  
+
+    //////////////////////////////////
     void Restart ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

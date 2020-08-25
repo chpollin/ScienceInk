@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - currency
   - ingredient
+  - FallingDown
   layers:
   - Default
   - TransparentFX
