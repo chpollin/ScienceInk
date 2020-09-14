@@ -23,6 +23,7 @@ public class ItemDatabase : MonoBehaviour
 
     void BuildDatabase()
     {
+        // if else level 1, level 2... ?
         items = new List<Item>() {
             new Item(0, "Bohnenkraut", "Lecker Bohnenkraut."),
             new Item(1, "Mangold", "Supi Mangold"),

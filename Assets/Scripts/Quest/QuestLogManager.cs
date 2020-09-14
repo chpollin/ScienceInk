@@ -7,9 +7,17 @@ public class QuestLogManager : MonoBehaviour
 {
     public GameObject questLogPanel;
     public GameObject closeButton;
-    private bool questLogPanelOn = false;
+    public ItemDatabase itemDatabase;
 
+    public GameObject ingredientEntry;
+    public GameObject ingredientList;
+    public GameObject ingredientPrefab_Entry;
     
+    public GameObject ingredientDescription;
+    public GameObject ingredientDescriptionList;
+    public GameObject ingredientPrefab_Description;
+
+    private bool questLogPanelOn = false;
 
     void CloseButton(){
         Debug.Log("test");
@@ -44,8 +52,27 @@ public class QuestLogManager : MonoBehaviour
     }
 
     // addQuest
-    public void addIngredientToQuest(){
-        Debug.Log("Ingredient added to the QuestLog: ");
+    public void addIngredientToQuest(int item_id)
+    {
+        // get ingredient from itemDatabase via pickup.cs
+        Item ingredient = itemDatabase.GetItemByID(item_id);
+
+        // create new ingredientEntry and add it to ingredientList
+        ingredientEntry = Instantiate(ingredientPrefab_Entry);
+        ingredientEntry.transform.SetParent(ingredientList.transform);
+
+        ingredientDescription = Instantiate(ingredientPrefab_Description);
+        ingredientDescription.transform.SetParent(ingredientDescriptionList.transform);
+
+        // add text to gameobjects
+        ingredientEntry.GetComponent<TextMeshProUGUI>().text =  ingredient.title;
+        ingredientDescription.GetComponent<TextMeshProUGUI>().text =  ingredient.description;
+
+        //Font ArialFont = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");
+        //text.font = ArialFont;
+        //text.material = ArialFont.material;
+ 
+
     }    
 
 

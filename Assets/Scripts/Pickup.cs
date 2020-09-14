@@ -24,9 +24,9 @@ public class Pickup : MonoBehaviour
                 if(item_id<99)
                 {
                     inventory.GiveItem(item_id);
-                    //ToDo
                     // also add ingredient in the QuestLog
-                    questLogManager.addIngredientToQuest();
+                    questLogManager.addIngredientToQuest(item_id);
+                    
                 } 
             }
         }

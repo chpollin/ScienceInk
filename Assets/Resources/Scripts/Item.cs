@@ -21,6 +21,7 @@ public class Item
         //this.stats = stats;
     }
 
+    // Item = ingredient with a title, icon and description; used in inventory and in questlog
     public Item(Item item)
     {
         this.item_id = item.item_id;
