@@ -8,6 +8,7 @@ public class Pickup : MonoBehaviour
     public int item_id;
     public Item item;
     public Inventory inventory;
+    public QuestLogManager questLogManager;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,7 +23,10 @@ public class Pickup : MonoBehaviour
                 //ToDo Almond has id=100; select by tag would be better
                 if(item_id<99)
                 {
-                    inventory.GiveItem(item_id); 
+                    inventory.GiveItem(item_id);
+                    //ToDo
+                    // also add ingredient in the QuestLog
+                    questLogManager.addIngredientToQuest();
                 } 
             }
         }
