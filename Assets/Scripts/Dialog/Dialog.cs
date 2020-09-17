@@ -35,6 +35,12 @@ public class Dialog : MonoBehaviour
         }
     }
 
+    public void skipDialog()
+    {
+        //ToDo: go to last sentence?
+        dialogPanel.SetActive(false);
+    }
+
     public void NextSentence()
     {
         soundEffect.Play();
