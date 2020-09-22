@@ -11002,7 +11002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &787059130
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12051,10 +12051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
-  knockback: 0
-  knockbackLength: 0
-  knockbackCount: 0
-  knockbackRight: 0
+  soundEffect: {fileID: 0}
 --- !u!61 &877692511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45020,10 +45017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
-  knockback: 0
-  knockbackLength: 0
-  knockbackCount: 0
-  knockbackRight: 0
+  soundEffect: {fileID: 0}
 --- !u!61 &1352354709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142880,10 +142874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
-  knockback: 0
-  knockbackLength: 0
-  knockbackCount: 0
-  knockbackRight: 0
+  soundEffect: {fileID: 8300000, guid: d451a942c175fd245b74ebd682431f3b, type: 3}
 --- !u!1 &2045045574
 GameObject:
   m_ObjectHideFlags: 0
