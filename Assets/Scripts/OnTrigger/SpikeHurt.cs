@@ -6,10 +6,7 @@ public class SpikeHurt: MonoBehaviour
 {
     public GameManager gameManager;
     bool _triggered;
-    public float knockback;
-    public float knockbackLength;
-    public float knockbackCount;
-    public bool knockbackRight;
+    public AudioClip soundEffect;
 
     private Rigidbody2D rb2D;
     private Animator animator;
@@ -20,7 +17,7 @@ public class SpikeHurt: MonoBehaviour
         if(_triggered){
             if(collider.gameObject.tag == "Player")
             {
-                Debug.Log("hurt!!!");
+                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
                 LiveCounter.health -= 1;
                 rb2D = collider.GetComponent<Rigidbody2D>();
                 animator = collider.GetComponent<Animator>();

@@ -25,9 +25,9 @@ public class ItemDatabase : MonoBehaviour
     {
         // if else level 1, level 2... ?
         items = new List<Item>() {
-            new Item(0, "Bohnenkraut", "Lecker Bohnenkraut."),
-            new Item(1, "Mangold", "Supi Mangold"),
-            new Item(2, "Salbei", "Seeliger Salbei")
+            new Item(0, "Bohnenkraut", "Lecker Bohnenkraut. Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore"),
+            new Item(1, "Mangold", "Supi Mangold Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore"),
+            new Item(2, "Salbei", "Seeliger Salbei Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore Lorem Ipsum Dolore")
         };
     }
 }
