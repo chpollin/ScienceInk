@@ -10,9 +10,14 @@ public class PlayerManager : MonoBehaviour
     public Text mandelNumberText;
     public static PlayerManager instance;
     int score;
+    Animator animator;
+    Rigidbody2D rb2d;
+    Object bulletRef;
+    public AudioClip soundEffect;
 
     public bool PickupItem(GameObject obj)
     {
+    
         switch(obj.tag)
         {
             case "currency":
@@ -36,6 +41,11 @@ public class PlayerManager : MonoBehaviour
 
     void Start()
     {
+        bulletRef = Resources.Load("almondBullet");
+        rb2d = GetComponent<Rigidbody2D>();
+        
+        animator = GetComponent<Animator>();
+
         if(instance == null)
         {
             instance = this;
@@ -46,5 +56,33 @@ public class PlayerManager : MonoBehaviour
     {
         score += mandelValue;
         mandelNumberText.text = "X" + score.ToString();
+    }
+
+
+  
+     void Update()
+    {
+        bool shoot = Input.GetKeyDown("e");
+         //mousclick left = Fire1M for firinf almond
+        if(shoot)
+        {
+            // score = number of colelcted almonds; shooting almond -1 to score
+            if(score > 0)
+            {
+                WeaponScript weapon = GetComponent<WeaponScript>();
+                if (weapon != null)
+                {
+                    // false because the player is not an enemy
+                    weapon.Attack(false);
+                    score -= 1; 
+                }
+            }
+            else
+            {
+                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
+            }
+           
+        }
+     
     }
 }

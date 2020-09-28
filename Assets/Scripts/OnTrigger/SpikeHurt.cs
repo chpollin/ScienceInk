@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class SpikeHurt: MonoBehaviour
 {
-    public GameManager gameManager;
     bool _triggered;
     public AudioClip soundEffect;
-
     private Rigidbody2D rb2D;
     private Animator animator;
 
@@ -24,7 +22,6 @@ public class SpikeHurt: MonoBehaviour
                 // move player when he is hurt
                 rb2D.velocity = new Vector2(0.0f,20.0f);
                 // change animation blinking red and jumping
-                //animator.SetTrigger("IsJumping");
                 animator.SetBool("IsHurt", true);
                 animator.SetBool("IsJumping", true);
             }
@@ -33,7 +30,7 @@ public class SpikeHurt: MonoBehaviour
     }
 
     ////////////////////////////////////////////////
-    public void OnTriggerExit2D(Collider2D collision)
+    public void OnTriggerExit2D(Collider2D collider)
     {
      if (!_triggered)
      {
@@ -41,7 +38,6 @@ public class SpikeHurt: MonoBehaviour
         animator.SetBool("IsJumping", false);
      }
      _triggered = false;
-     Debug.Log("exit");
     }
 
 }
