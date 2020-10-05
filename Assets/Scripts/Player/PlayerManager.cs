@@ -15,9 +15,10 @@ public class PlayerManager : MonoBehaviour
     Object bulletRef;
     public AudioClip soundEffect;
     public int almondValue = 1;
-    bool isfacingLeft;
-    public Transform bulletPrefab;
-    
+    bool isFacingLeft;
+    //public Transform bulletPrefab;
+    public Rigidbody2D bulletPrefab;
+
 
     public bool PickupItem(GameObject obj)
     {
@@ -66,14 +67,12 @@ public class PlayerManager : MonoBehaviour
   
      void Update()
     {
-
-        // If the input is moving the player right and the player is facing left...
+        // get the direction the player looks (maybe hack? sry^^)
         if(Input.GetKeyDown("a"))
-            {isfacingLeft = true;}
+            {isFacingLeft = true;}
         else if(Input.GetKeyDown("d"))
-            {isfacingLeft = false;}
+            {isFacingLeft = false;}
         
-        Debug.Log(isfacingLeft);
          // mousclick left = Fire1M for firing almond
          // || Input.GetKeyDown(KeyCode.Mouse0)
         if(Input.GetKeyDown("e") )
@@ -81,29 +80,13 @@ public class PlayerManager : MonoBehaviour
             // score = number of collected almonds; shooting almond -1 to score
             if(score > 0)
             {
-                //shootCooldown = shootingRate;
-                var shotTransform = Instantiate(bulletPrefab) as Transform;
-                // Assign position
-                shotTransform.position = transform.position;
-                //shotTransform.transform.Rotate(new Vector2(0, 50));
-/*  {rb2d.velocity = new Vector3(-15,0);}
-        else
-        {rb2d.velocity = new Vector3(15,0);}*/
+                Rigidbody2D shotTransform = Instantiate(bulletPrefab);
+                shotTransform.transform.position = transform.position;
 
-                shotTransform.transform.position = new Vector3(transform.position.x + .4f, transform.position.y + .2f, -1);
-
-
-
-                /*WeaponScript weapon = GetComponent<WeaponScript>();
-                if (weapon != null)
-                {
-                    
-                    // false because the player is not an enemy
-                    weapon.Attack(false);
-                    //score -= 1;
-                    PlayerManager.instance.ChangeScore(-1);
-                }
-                */
+                if(isFacingLeft)
+                    {shotTransform.velocity = new Vector3(-15,0);}
+                else
+                    {shotTransform.velocity = new Vector3(15,0);}
             }
             else
             {

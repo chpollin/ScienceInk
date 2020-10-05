@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class BulletScript : MonoBehaviour
 {
     Rigidbody2D rb2d;
@@ -12,18 +14,8 @@ public class BulletScript : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         // destroy almond bullet after some time
-        Invoke("DestroySelf", .5f);
+        Invoke("DestroySelf", .75f);
         
-    }
-
-    void FixedUpdate()
-    {
-        //change x to minus; bullet goes left
-        /*if(isFacingLeft)
-        {rb2d.velocity = new Vector3(-15,0);}
-        else
-        {rb2d.velocity = new Vector3(15,0);}
-       */
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
