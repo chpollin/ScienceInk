@@ -87,6 +87,9 @@ public class PlayerManager : MonoBehaviour
                     {shotTransform.velocity = new Vector3(-15,0);}
                 else
                     {shotTransform.velocity = new Vector3(15,0);}
+                // ToDo: weil gameoject wird das zweimal geamcht?! 
+                //score = score - 1;
+                //PlayerManager.instance.ChangeScore(-1);
             }
             else
             {

@@ -9,6 +9,8 @@ TagManager:
   - currency
   - ingredient
   - FallingDown
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Obstacle
   - Background
   - Currency
-  - 
+  - Enemy
   - 
   - 
   - 
