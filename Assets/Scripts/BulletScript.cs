@@ -5,6 +5,8 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     Rigidbody2D rb2d;
+    bool isFacingLeft = false;
+    public GameObject player;
 
     void Start()
     {
@@ -16,7 +18,12 @@ public class BulletScript : MonoBehaviour
 
     void FixedUpdate()
     {
-       rb2d.velocity = new Vector3(15,0);
+        //change x to minus; bullet goes left
+        /*if(isFacingLeft)
+        {rb2d.velocity = new Vector3(-15,0);}
+        else
+        {rb2d.velocity = new Vector3(15,0);}
+       */
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

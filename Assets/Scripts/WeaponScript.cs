@@ -16,6 +16,7 @@ public class WeaponScript : MonoBehaviour
     //--------------------------------
 
     private float shootCooldown;
+    bool isFacingLeft = false;
 
     void Start()
     {
@@ -49,20 +50,6 @@ public class WeaponScript : MonoBehaviour
             shotTransform.position = transform.position;
             shotTransform.transform.position = new Vector3(transform.position.x + .4f, transform.position.y + .2f, -1);
 
-
-            // The is enemy property
-            ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
-            if (shot != null)
-            {
-                shot.isEnemyShot = isEnemy;
-            }
-
-            // Make the weapon shot always towards it
-            /*MoveScript move = shotTransform.gameObject.GetComponent<MoveScript>();
-            if (move != null)
-            {
-                move.direction = this.transform.right; // towards in 2D space is the right of the sprite
-            }*/
         }
     }
 
