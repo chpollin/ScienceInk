@@ -53,8 +53,11 @@ public class EnemyGraphics : MonoBehaviour
     {
      if (!_triggered)
      {
-        animator.SetBool("IsHurt", false);
-        animator.SetBool("IsJumping", false);
+          if(collider.gameObject.tag == "Player")
+            {
+            animator.SetBool("IsHurt", false);
+            animator.SetBool("IsJumping", false);
+            }
      }
      _triggered = false;
     }
