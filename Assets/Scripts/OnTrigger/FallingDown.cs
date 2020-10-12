@@ -8,6 +8,7 @@ public class FallingDown : MonoBehaviour
     public AudioClip soundEffect;
     private Rigidbody2D rb2D;
     private Animator animator;
+    private GameManager gameManager;
 
     // if player falls down somewhere (defined with a trigger with the tag "Falling Down")
 
@@ -22,7 +23,6 @@ public class FallingDown : MonoBehaviour
                 animator = collider.GetComponent<Animator>();
                 animator.SetBool("IsHurt", true);
                 animator.SetBool("IsJumping", true);
-
             }
         }
         _triggered = true;
@@ -35,7 +35,9 @@ public class FallingDown : MonoBehaviour
      {
         animator.SetBool("IsHurt", false);
         animator.SetBool("IsJumping", false);
-        collider.transform.position = new Vector2(0,0);
+        // player respawns at position of last triggerd checkpoint
+        gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        collider.transform.position = gameManager.lastCheckPointPos;
      }
      _triggered = false;
     }

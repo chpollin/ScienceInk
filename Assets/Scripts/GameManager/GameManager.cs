@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     bool gameHasEnded = false; 
 
     public float restartDelay = 1f;
+    public Vector2 lastCheckPointPos;
 
     //////////////////////////////////
     public void BacktoMainMenu()

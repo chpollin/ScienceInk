@@ -11,6 +11,8 @@ TagManager:
   - FallingDown
   - Enemy
   - Bullet
+  - GameManager
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -25,7 +27,7 @@ TagManager:
   - Background
   - Currency
   - Enemy
-  - 
+  - Environment
   - 
   - 
   - 

@@ -51,7 +51,6 @@ public class Pickup : MonoBehaviour
          return;
      }
      _triggered = false;
-     Debug.Log("exit");
     }
 
     public void RemoveItem()
