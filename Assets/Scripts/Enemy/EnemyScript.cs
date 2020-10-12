@@ -17,7 +17,6 @@ public class EnemyScript : MonoBehaviour
         if(_triggered){
             if(collider.gameObject.tag == "Player")
             {
-                Debug.Log("Enemy Trigger");
                 AudioSource.PlayClipAtPoint(soundEffect, transform.position);
                 LiveCounter.health -= 1;
                 rb2D = collider.GetComponent<Rigidbody2D>();
