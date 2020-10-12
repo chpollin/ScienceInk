@@ -4,54 +4,49 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    public AudioClip soundEffect;
-    private int health = 2;
-    // materials
-    private Material matWhite;
-    private Material matDefault;
-    private UnityEngine.Object explosionRef;
-    SpriteRenderer sr;
+    // this script is for dealing damag to the player ontrigger
 
-    // Start is called before the first frame update
-    void Start()
+    bool _triggered;
+    public AudioClip soundEffect;
+    private Rigidbody2D rb2D;
+    private Animator animator;
+        
+   ////////////////////////////////////////////////
+   void OnTriggerEnter2D(Collider2D collider)
     {
-        sr = GetComponent<SpriteRenderer>();
-        matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
-        matDefault = sr.material;
-        explosionRef = Resources.Load("Explosion");
+        if(_triggered){
+            if(collider.gameObject.tag == "Player")
+            {
+                Debug.Log("Enemy Trigger");
+                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
+                LiveCounter.health -= 1;
+                rb2D = collider.GetComponent<Rigidbody2D>();
+                animator = collider.GetComponent<Animator>();
+                // move player when he is hurt
+                rb2D.velocity = new Vector2(0.0f,20.0f);
+                // change animation blinking red and jumping
+                animator.SetBool("IsHurt", true);
+                animator.SetBool("IsJumping", true);
+            }
+        }
+        _triggered = true;
+    }
+
+    ////////////////////////////////////////////////
+    public void OnTriggerExit2D(Collider2D collider)
+    {
+     if (!_triggered)
+     {
+          if(collider.gameObject.tag == "Player")
+            {
+            animator.SetBool("IsHurt", false);
+            animator.SetBool("IsJumping", false);
+            }
+     }
+     _triggered = false;
     }
 
   
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.CompareTag("Bullet"))
-        {
-            health--;
-            sr.material = matWhite;
-            if(health<=0)
-            {
-                KillsSelf();
-                Destroy(collision.collider.gameObject);
-                Destroy(gameObject);
-                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
-            }
-            else
-            {
-                Invoke("ResetMaterial", .1f);
-            }
-          
-        }
-    }
 
-    void ResetMaterial()
-    {
-        sr.material = matDefault;
-    }
-
-    void KillsSelf()
-    {
-       GameObject explosion = (GameObject)Instantiate(explosionRef);
-       explosion.transform.position = new Vector3(transform.position.x, transform.position.y + .3f, transform.position.z);
-    }
   
 }

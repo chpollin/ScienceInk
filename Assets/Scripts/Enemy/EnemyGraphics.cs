@@ -7,13 +7,15 @@ using Pathfinding;
 
 public class EnemyGraphics : MonoBehaviour
 {
+    // this script is for AI and shooting + white effect 
 
-
-    bool _triggered;
     public AudioClip soundEffect;
-    private Rigidbody2D rb2D;
-    private Animator animator;
+    private int health = 2;
     public AIPath aiPath;
+    SpriteRenderer sr;
+    private Material matWhite;
+    private Material matDefault;
+    private UnityEngine.Object explosionRef;
 
     // Update is called once per frame
     void Update()
@@ -27,39 +29,47 @@ public class EnemyGraphics : MonoBehaviour
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
-    
-   ////////////////////////////////////////////////
-   void OnTriggerEnter2D(Collider2D collider)
+
+        void Start()
     {
-        if(_triggered){
-            if(collider.gameObject.tag == "Player")
-            {
-                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
-                LiveCounter.health -= 1;
-                rb2D = collider.GetComponent<Rigidbody2D>();
-                animator = collider.GetComponent<Animator>();
-                // move player when he is hurt
-                rb2D.velocity = new Vector2(0.0f,20.0f);
-                // change animation blinking red and jumping
-                animator.SetBool("IsHurt", true);
-                animator.SetBool("IsJumping", true);
-            }
-        }
-        _triggered = true;
+        sr = GetComponent<SpriteRenderer>();
+        matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+        matDefault = sr.material;
+        explosionRef = Resources.Load("Explosion");
     }
 
-    ////////////////////////////////////////////////
-    public void OnTriggerExit2D(Collider2D collider)
+
+
+        void OnCollisionEnter2D(Collision2D collision)
     {
-     if (!_triggered)
-     {
-          if(collider.gameObject.tag == "Player")
+        if(collision.gameObject.CompareTag("Bullet"))
+        {
+            health--;
+            sr.material = matWhite;
+            if(health<=0)
             {
-            animator.SetBool("IsHurt", false);
-            animator.SetBool("IsJumping", false);
+                KillsSelf();
+                Destroy(collision.collider.gameObject);
+                Destroy(gameObject);
+                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
             }
-     }
-     _triggered = false;
+            else
+            {
+                Invoke("ResetMaterial", .1f);
+            }
+          
+        }
+    }
+
+    void ResetMaterial()
+    {
+        sr.material = matDefault;
+    }
+
+    void KillsSelf()
+    {
+       GameObject explosion = (GameObject)Instantiate(explosionRef);
+       explosion.transform.position = new Vector3(transform.position.x, transform.position.y + .3f, transform.position.z);
     }
 
 }
