@@ -7170,13 +7170,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 972076642}
   sentences:
-  - "Das ist mein Abenteuer! Ich werde mein ber\xFChmt-ber\xFCchtigtes XY kochen
-    und der beste Koch des Landes werden."
-  - Dazu muss ich zuerst Bohnenkraut, Mangold und Salbei sammeln. Dazu kann ich mich
-    mit den Pfeiltasten bzw. mit "WASD" bewegen und springen.
-  - Mit Q komme ich ins Questlog und mit E kann ich meine Mandeln abfeuern, wenn
-    ich denn welche finde.
-  typingSpeed: 0.5
+  - " Ich werde diesen Wettbewerb gewinnen. Ich wei\xDF, dass ich die X Gerichte
+    leicht kochen kann!"
+  - " Ich beginne in meinem Heimatf\xFCrstentum. Wir essen am liebsten X./ Daf\xFCr
+    brauche ich A,B,C,D. "
+  typingSpeed: 1
   continueButton: {fileID: 16897045}
   dialogPanel: {fileID: 491048941}
   soundEffect: {fileID: 550945387}
@@ -131485,12 +131483,12 @@ PrefabInstance:
     - target: {fileID: 8505725711426445274, guid: 240754bbce2774545bbdf25fb7318678,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -456.2
+      value: -440
       objectReference: {fileID: 0}
     - target: {fileID: 8505725711426445274, guid: 240754bbce2774545bbdf25fb7318678,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -30.6
+      value: -42.9
       objectReference: {fileID: 0}
     - target: {fileID: 8505725711487810745, guid: 240754bbce2774545bbdf25fb7318678,
         type: 3}
