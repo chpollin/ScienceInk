@@ -9,16 +9,6 @@ public class Inventory : MonoBehaviour
     public ItemDatabase itemDatabase;
     public UIInventory inventoryUI;
 
-    private void Start()
-    {
-        Debug.Log("Start");
-        //GiveItem(1);
-        //GiveItem(0);
-        //GiveItem(1);
-        
-    }
-
-
     public void GiveItem(int item_id)
     {
         Item itemToAdd = itemDatabase.GetItemByID(item_id);
@@ -39,7 +29,6 @@ public class Inventory : MonoBehaviour
         {
             characterItems.Remove(itemToRemove);
             inventoryUI.RemoveItem(itemToRemove);
-            Debug.Log("Item removed: " + itemToRemove.title); 
         }
     }
 

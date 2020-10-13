@@ -29,7 +29,8 @@ public class UIInventory : MonoBehaviour
     {
         Debug.Log("Add new Item to UIInventory");
         // use the item it also as slot id: Item with id 2 is using slot 2
-        UpdateSlot(item.item_id, item);
+        // inventorySlotPosition
+        UpdateSlot(item.inventorySlotPosition, item);
     }
 
     public void RemoveItem(Item item)

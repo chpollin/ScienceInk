@@ -9,15 +9,17 @@ public class Item
     public int item_id;
     public string title;
     public string description;
+    public int inventorySlotPosition;
     public Sprite icon;
     //public Dictionary<string,int> stats = new Dictionary<string, int>();
 
-    public Item(int item_id, string title, string description)
+    public Item(int item_id, string title, string description, int inventorySlotPosition)
     {
         this.item_id = item_id;
         this.title = title;
         this.description = description;
         this.icon = Resources.Load<Sprite>("Sprites/Items/" + title);
+        this.inventorySlotPosition = inventorySlotPosition;
         //this.stats = stats;
     }
 
@@ -28,6 +30,7 @@ public class Item
         this.title = item.title;
         this.description = item.description;
         this.icon = Resources.Load<Sprite>("Sprites/Items/" + item.title);
+        this.inventorySlotPosition = item.inventorySlotPosition;
         //this.stats = item.stats;
     }
 

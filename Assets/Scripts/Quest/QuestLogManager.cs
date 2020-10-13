@@ -20,7 +20,6 @@ public class QuestLogManager : MonoBehaviour
     private bool questLogPanelOn = false;
 
     void CloseButton(){
-        Debug.Log("test");
         closeButton.SetActive(false);
         closeButton.SetActive(false);
     }    
