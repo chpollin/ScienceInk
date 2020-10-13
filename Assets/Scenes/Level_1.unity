@@ -44389,7 +44389,7 @@ GameObject:
   - component: {fileID: 1743652920}
   - component: {fileID: 1743652919}
   m_Layer: 13
-  m_Name: GameEndTrigger
+  m_Name: LevelEndTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -44403,7 +44403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743652917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 470.8, y: 1.3116204, z: 50.75583}
+  m_LocalPosition: {x: 26.65, y: 0.05, z: 50.75583}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 436160223}
@@ -131178,6 +131178,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4283249275021194730, guid: ef3c7eaad32991c47bb612026b2309f1,
+        type: 3}
+      propertyPath: m_JumpForce
+      value: 725
+      objectReference: {fileID: 0}
     - target: {fileID: 4283249275021194735, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
       propertyPath: mandelNumberText
@@ -131348,6 +131353,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7519944179200015551, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: m_WorldUpOverride
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b94f335e15bd536439b0719687a6b7d6, type: 3}
 --- !u!1001 &8505725711200187043
@@ -131475,12 +131485,12 @@ PrefabInstance:
     - target: {fileID: 8505725711426445274, guid: 240754bbce2774545bbdf25fb7318678,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -472.6
+      value: -456.2
       objectReference: {fileID: 0}
     - target: {fileID: 8505725711426445274, guid: 240754bbce2774545bbdf25fb7318678,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -16.6
+      value: -30.6
       objectReference: {fileID: 0}
     - target: {fileID: 8505725711487810745, guid: 240754bbce2774545bbdf25fb7318678,
         type: 3}
