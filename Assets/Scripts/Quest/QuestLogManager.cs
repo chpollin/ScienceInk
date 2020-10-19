@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class QuestLogManager : MonoBehaviour
 {
     public GameObject questLogPanel;
     public GameObject closeButton;
     public ItemDatabase itemDatabase;
-
-    public GameObject ingredientEntry;
+    private GameObject ingredientEntry;
     public GameObject ingredientList;
     public GameObject ingredientPrefab_Entry;
     
-    public GameObject ingredientDescription;
+    private GameObject ingredientDescription;
     public GameObject ingredientDescriptionList;
     public GameObject ingredientPrefab_Description;
+    
 
     private bool questLogPanelOn = false;
 
@@ -44,7 +45,6 @@ public class QuestLogManager : MonoBehaviour
            {
             questLogPanel.SetActive(true);
             questLogPanelOn = true;
-            Debug.Log(questLogPanelOn);
            }
            
         }
@@ -56,6 +56,7 @@ public class QuestLogManager : MonoBehaviour
         // get ingredient from itemDatabase via pickup.cs
         Item ingredient = itemDatabase.GetItemByID(item_id);
 
+
         // create new ingredientEntry and add it to ingredientList
         ingredientEntry = Instantiate(ingredientPrefab_Entry);
         ingredientEntry.transform.SetParent(ingredientList.transform);
@@ -64,15 +65,19 @@ public class QuestLogManager : MonoBehaviour
         ingredientDescription.transform.SetParent(ingredientDescriptionList.transform);
 
         // add text to gameobjects
-        ingredientEntry.GetComponent<TextMeshProUGUI>().text =  ingredient.title;
+        //ingredientEntry.GetComponent<TextMeshProUGUI>().text =  ingredient.title;
+        
+        ingredientEntry.GetComponentInChildren<TextMeshProUGUI>().text =  ingredient.title;
+        ingredientEntry.GetComponentInChildren<Image>().sprite = ingredient.icon;
+        //ingredientEntry.GetComponentInChildren<ShowHideText>();
+        
         ingredientDescription.GetComponent<TextMeshProUGUI>().text =  ingredient.description;
-
+        //ingredientDescription.SetActive(false);
         //Font ArialFont = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");
         //text.font = ArialFont;
         //text.material = ArialFont.material;
  
 
-    }    
-
+    }  
 
 }
