@@ -13,8 +13,8 @@ public class QuestLogManager : MonoBehaviour
     public GameObject ingredientList;
     public GameObject ingredientPrefab_Entry;
     
-    private GameObject ingredientDescription;
-    public GameObject ingredientDescriptionList;
+    //private GameObject ingredientDescription;
+    //public GameObject ingredientDescriptionList;
     public GameObject ingredientPrefab_Description;
     
 
@@ -61,8 +61,8 @@ public class QuestLogManager : MonoBehaviour
         ingredientEntry = Instantiate(ingredientPrefab_Entry);
         ingredientEntry.transform.SetParent(ingredientList.transform);
 
-        ingredientDescription = Instantiate(ingredientPrefab_Description);
-        ingredientDescription.transform.SetParent(ingredientDescriptionList.transform);
+        //ingredientDescription = Instantiate(ingredientPrefab_Description);
+        //ingredientDescription.transform.SetParent(ingredientDescriptionList.transform);
 
         // add text to gameobjects
         //ingredientEntry.GetComponent<TextMeshProUGUI>().text =  ingredient.title;
@@ -71,7 +71,12 @@ public class QuestLogManager : MonoBehaviour
         ingredientEntry.GetComponentInChildren<Image>().sprite = ingredient.icon;
         //ingredientEntry.GetComponentInChildren<ShowHideText>();
         
-        ingredientDescription.GetComponent<TextMeshProUGUI>().text =  ingredient.description;
+
+        
+        //ingredientDescription.GetComponent<TextMeshProUGUI>().text =  ingredient.description;
+        //ingredientDescription.gameObject.tag = "ingredient_desc";
+        
+        
         //ingredientDescription.SetActive(false);
         //Font ArialFont = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");
         //text.font = ArialFont;

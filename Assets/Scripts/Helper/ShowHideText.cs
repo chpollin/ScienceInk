@@ -6,17 +6,38 @@ using TMPro;
 
 public class ShowHideText : MonoBehaviour
 {
+    public ItemDatabase itemDatabase;
+    public GameObject itemDB;
+    public GameObject DescList;
+    
+
     public Button myButton;
     // this script adds an onlick event to a button in a prefab
      void Awake()
     {
         Button myButton = this.gameObject.GetComponent<Button>();
         myButton.onClick.AddListener ((UnityEngine.Events.UnityAction) this.OnClick);
+
+        itemDB = GameObject.Find("ItemDatabase");
+        
     }
 
     public void OnClick()
     {
+        // cant put object into Awake as it is not active from start on
+        DescList = GameObject.Find("DescList");
         Button myButton = this.gameObject.GetComponent<Button>();
-        Debug.Log(myButton.GetComponentInChildren<TextMeshProUGUI>().text);
+        // GetComponentInChildren<TextMeshProUGUI>().text = ingredient title
+        Item ingredient = itemDB.GetComponent<ItemDatabase>().GetItemByTitle(myButton.GetComponentInChildren<TextMeshProUGUI>().text);
+        //ingredient = itemDatabase.GetItemByTitle("Bohnenkraut");
+        //ingredientDescription.SetActive(true);
+
+        Debug.Log(ingredient.description);
+        DescList.GetComponentInChildren<TextMeshProUGUI>().text = ingredient.description;
+        Debug.Log(DescList);
+        
+        //Debug.Log(ingredient.description);
+        //ingredientDescription.GetComponent<TextMeshProUGUI>().text =  ingredient.description;
+        
     }
 }
