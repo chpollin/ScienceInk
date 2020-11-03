@@ -17,9 +17,7 @@ public class ShowHideText : MonoBehaviour
     {
         Button myButton = this.gameObject.GetComponent<Button>();
         myButton.onClick.AddListener ((UnityEngine.Events.UnityAction) this.OnClick);
-
-        itemDB = GameObject.Find("ItemDatabase");
-        
+        itemDB = GameObject.Find("ItemDatabase");    
     }
 
     public void OnClick()
@@ -29,15 +27,6 @@ public class ShowHideText : MonoBehaviour
         Button myButton = this.gameObject.GetComponent<Button>();
         // GetComponentInChildren<TextMeshProUGUI>().text = ingredient title
         Item ingredient = itemDB.GetComponent<ItemDatabase>().GetItemByTitle(myButton.GetComponentInChildren<TextMeshProUGUI>().text);
-        //ingredient = itemDatabase.GetItemByTitle("Bohnenkraut");
-        //ingredientDescription.SetActive(true);
-
-        Debug.Log(ingredient.description);
         DescList.GetComponentInChildren<TextMeshProUGUI>().text = ingredient.description;
-        Debug.Log(DescList);
-        
-        //Debug.Log(ingredient.description);
-        //ingredientDescription.GetComponent<TextMeshProUGUI>().text =  ingredient.description;
-        
     }
 }
