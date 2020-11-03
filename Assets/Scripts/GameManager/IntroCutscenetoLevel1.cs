@@ -14,7 +14,7 @@ public class IntroCutscenetoLevel1 : MonoBehaviour
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(18f);
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
      }
 
 }
