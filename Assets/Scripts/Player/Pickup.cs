@@ -8,14 +8,16 @@ public class Pickup : MonoBehaviour
     public int item_id;
     public Item item;
     public Inventory inventory;
+    public GameObject questLogPanel;
     public QuestLogManager questLogManager;
     bool _triggered;
     public int almondValue = 1;
+    bool isPaused = false;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerManager manager = collision.GetComponent<PlayerManager>();
-        // fixing fireing OnTrigget Twice; set a boolean value when triggered
+        // fixing firing OnTrigget Twice; set a boolean value when triggered
         if(_triggered){
             if (manager)
             {
@@ -30,7 +32,12 @@ public class Pickup : MonoBehaviour
                         inventory.GiveItem(item_id);
                         // also add ingredient in the QuestLog
                         questLogManager.addIngredientToQuest(item_id);
-                        
+                        isPaused = true;
+                        if(isPaused)
+                        {
+                            Time.timeScale = 0;
+                        }
+                        questLogPanel.gameObject.SetActive(true);
                     } 
                     if(item_id == 100)
                     {
@@ -43,7 +50,7 @@ public class Pickup : MonoBehaviour
          _triggered = true;
     }
 
-    // fixing fireing OnTrigget Twice; set a boolean value when triggered
+    // fixing firing OnTrigget Twice; set a boolean value when triggered
     public void OnTriggerExit2D(Collider2D collision)
     {
      if (!_triggered)
@@ -51,6 +58,18 @@ public class Pickup : MonoBehaviour
          return;
      }
      _triggered = false;
+    }
+
+    public void pauseGame()
+    {
+        if(isPaused){
+            Time.timeScale = 1;
+            isPaused = false;
+        }
+        else{
+            Time.timeScale = 0;
+            isPaused = true;
+        }
     }
 
     public void RemoveItem()

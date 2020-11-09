@@ -22,7 +22,7 @@ public class QuestLogManager : MonoBehaviour
 
     void CloseButton(){
         closeButton.SetActive(false);
-        closeButton.SetActive(false);
+        Time.timeScale = 1;
     }    
 
     // QuestLogPanel 
@@ -36,15 +36,19 @@ public class QuestLogManager : MonoBehaviour
     {
         if (Input.GetKeyDown("q"))
         {
+            if(questLogPanel.activeSelf) 
+            {questLogPanelOn = true;}
            if(questLogPanelOn)
            {
-               questLogPanel.SetActive(false);
-                questLogPanelOn = false;
+            questLogPanel.SetActive(false);
+            questLogPanelOn = false;
+            Time.timeScale = 1;
            }
            else
            {
             questLogPanel.SetActive(true);
             questLogPanelOn = true;
+            Time.timeScale = 0;
            }
            
         }
