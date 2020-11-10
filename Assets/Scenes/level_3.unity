@@ -1051,6 +1051,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 11
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &49968846
@@ -1233,6 +1234,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 13
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &60092849
@@ -1351,6 +1353,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 8
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &76563664
@@ -1564,6 +1567,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 6
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &84868340
@@ -79925,6 +79929,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 10
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &628593583
@@ -80434,6 +80439,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 0
   inventory: {fileID: 0}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 0}
   almondValue: 1
 --- !u!61 &705403496
@@ -108987,6 +108993,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 5
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &1069373777
@@ -109257,7 +109264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084979945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 471.4, y: 2.5, z: 50.75583}
+  m_LocalPosition: {x: 426.37, y: -13.72, z: 50.75583}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 609812658}
@@ -111782,6 +111789,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 9
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &1390613525
@@ -113960,6 +113968,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 12
   inventory: {fileID: 325424850}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
 --- !u!61 &1751521539
