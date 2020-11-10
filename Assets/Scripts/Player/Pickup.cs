@@ -32,12 +32,12 @@ public class Pickup : MonoBehaviour
                         inventory.GiveItem(item_id);
                         // also add ingredient in the QuestLog
                         questLogManager.addIngredientToQuest(item_id);
-                        isPaused = true;
+                        //isPaused = true;
                         if(isPaused)
                         {
                             Time.timeScale = 0;
                         }
-                        questLogPanel.gameObject.SetActive(true);
+                        //questLogPanel.gameObject.SetActive(true);
                     } 
                     if(item_id == 100)
                     {
