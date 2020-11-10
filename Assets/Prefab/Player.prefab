@@ -254,6 +254,8 @@ MonoBehaviour:
   mandelCount: 0
   mandelNumberText: {fileID: 0}
   soundEffect: {fileID: 8300000, guid: aee0f4be44d785347b86c3170de45676, type: 3}
+  almondValue: 1
+  bulletPrefab: {fileID: 0}
 --- !u!114 &4283249275021194704
 MonoBehaviour:
   m_ObjectHideFlags: 0
