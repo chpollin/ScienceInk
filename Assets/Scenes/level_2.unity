@@ -82988,6 +82988,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbb6d355ef130384da220f912571b8b0, type: 3}
+--- !u!95 &606396787 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3589684293472279758, guid: cbb6d355ef130384da220f912571b8b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 606396786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &613513545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86388,9 +86394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a54b23664a2f7b468d8a468304df068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transition: {fileID: 0}
+  transition: {fileID: 606396787}
   transitionTime: 1
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1589637376}
 --- !u!61 &843632902
 BoxCollider2D:
   m_ObjectHideFlags: 0
