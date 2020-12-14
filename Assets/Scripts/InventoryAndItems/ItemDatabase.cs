@@ -30,52 +30,55 @@ public class ItemDatabase : MonoBehaviour
         items = new List<Item>() {
             ///////////
             // Rezept Level 1 - Maisauce
-            new Item(0, "Petersilie", "In der mittelalterlichen Kueche ein wichtiges Färbemittel, um Speisen gruen zu färben. Verantwortlich dafür ist das darin enthaltene Chlorophyll (Blattgrün).", 0),
-            new Item(1, "Bohnenkraut", "Es wurde von den Mönchen bereits im Frühmittelalter (6.-9.Jh.) nördlich der Alpen kultiviert. Es hat einen scharfen Beigeschmack und wurde daher auch als Pfefferersatz ('Pfefferkraut') verwendet.", 1),
-            new Item(2, "Mangold", "Er war bereits in der Antike als Gemüse bekannt. Verspeist werden sowohl Stängel wie auch das Blatt. Der Geschmack erinnert an Spinat.", 2),
-            new Item(3, "Salbei", "Eine im Mittelalter überaus geschätzte Heil- und Würzpflanze mit einem sehr eigenen, medizinischen Aroma. Salbeitee ist noch heute das beliebteste Heilmittel bei Zahnfleischproblemen und Halsschmerzen.", 3),
-            new Item(4, "Schnittlauch", "Er ist ein Lauchgewächs und hat daher auch den typischen, scharfen Geruch. Seine Heimat ist der Mittelmeerraum.", 4),
+            new Item(0, "Petersilie", "In der mittelalterlichen Kueche ein wichtiges Faerbemittel, um Speisen gruen zu faerben. Verantwortlich dafuer ist das darin enthaltene Chlorophyll (Blattgruen).", 0),
+            new Item(1, "Bohnenkraut", "Es wurde von den Moenchen bereits im Fruehmittelalter (6.-9.Jh.) noerdlich der Alpen kultiviert. Es hat einen scharfen Beigeschmack und wurde daher auch als Pfefferersatz ('Pfefferkraut') verwendet.", 1),
+            new Item(2, "Mangold", "Er war bereits in der Antike als Gemuese bekannt. Verspeist werden sowohl Staengel wie auch das Blatt. Der Geschmack erinnert an Spinat.", 2),
+            new Item(3, "Salbei", "Eine im Mittelalter ueberaus geschaetzte Heil- und Wuerzpflanze mit einem sehr eigenen, medizinischen Aroma. Salbeitee ist noch heute das beliebteste Heilmittel bei Zahnfleischproblemen und Halsschmerzen.", 3),
+            new Item(4, "Schnittlauch", "Er ist ein Lauchgewaechs und hat daher auch den typischen, scharfen Geruch. Seine Heimat ist der Mittelmeerraum.", 4),
             ///////////
-            // Rezept Level 2 - Blanc Manger und Böhmische Erbsen
-            new Item(5, "Petersilie", "Sie wurde nicht nur in der Küche, sondern auch medizinisch in der Frauenheilkunde als Tee eingesetzt, da sie krampflösend wirkt. Allerdings darf hier nicht überdosiert werden!", 0),
-            new Item(6, "Bohnenkraut", "Es erinnert im Geschmack etwas an Thymian, schmeckt aber schärfer. Beim Verzehr von Hülsenfrüchten (Bohnen, Erbsen, ...) soll es die Verdauung unterstützen, damit nciht jedes Böhnchen ein Tönchen erzeugt.", 1),
-            new Item(7, "Huhn", "Es ist im Mittelalter fast in jedem Haushalt zu finden: Sie versorgten sich nahezu selbst, lieferten Eier und wurden als alte Hühner verkocht.", 2),
+            // Rezept Level 2 - Blanc Manger und Boehmische Erbsen
+            new Item(5, "Petersilie", "Sie wurde nicht nur in der Kueche, sondern auch medizinisch in der Frauenheilkunde als Tee eingesetzt, da sie krampfloesend wirkt. Allerdings darf hier nicht ueberdosiert werden!", 0),
+            new Item(6, "Bohnenkraut", "Es erinnert im Geschmack etwas an Thymian, schmeckt aber schaerfer. Beim Verzehr von Huelsenfruechten (Bohnen, Erbsen, ...) soll es die Verdauung unterstuetzen, damit nciht jedes Boehnchen ein Toenchen erzeugt.", 1),
+            new Item(7, "Huhn", "Es ist im Mittelalter fast in jedem Haushalt zu finden: Sie versorgten sich nahezu selbst, lieferten Eier und wurden als alte Huehner verkocht.", 2),
             new Item(8, "Salz", "Salz ist eines der wichtigen Konservierungsmittel. Es wurde im Bergbau gewonnen und danach in riesigen Pfannen ausgekocht und gereinigt.", 3),
-            new Item(9, "Pfeffer", "Pfeffer wurde aus Indien über See- uns Landwege importiert und daher sehr teuer. Oft wurde es in Europa sogar als Zahlungsmittel eingesetzt.", 4),
-            new Item(10, "Erbsen", "Sie sind eine uralte europäische Kulturpflanze. In den mittelalterlichen Rezeptsammlungen werden grüne, weiße und rote Erbsen genannt.", 5),
-            new Item(11, "Speck", "Pökeln (Einsalzen) und Räuchern ist eine Möglichkeit, Schweinefleisch für lange Zeit haltbar zu machen. Rückenspeck ist fett (Lardo), Bauchspeck ist von Fleisch durchzogen.", 6),
-            new Item(12, "Liebstöckel", "Hat einen starken eigentümlichen Geruch, seine Aromen wirken wie Geschmacksverstärker bei pikanten Speisen. Es war Heilmittel, Zauberpflanze und Gewürz zugleich.", 7),
-            new Item(13, "Reispflanze", "Reis wurde in Europa bis nach Norditalien angebaut. Sein hoher Stärkegehalt ist für Muse und Breispeisen wichtig.", 8),
+            new Item(9, "Pfeffer", "Pfeffer wurde aus Indien ueber See- uns Landwege importiert und daher sehr teuer. Oft wurde es in Europa sogar als Zahlungsmittel eingesetzt.", 4),
+            new Item(10, "Erbsen", "Sie sind eine uralte europaeische Kulturpflanze. In den mittelalterlichen Rezeptsammlungen werden gruene, weiße und rote Erbsen genannt.", 5),
+            new Item(11, "Speck", "Poekeln (Einsalzen) und Raeuchern ist eine Moeglichkeit, Schweinefleisch fuer lange Zeit haltbar zu machen. Rueckenspeck ist fett (Lardo), Bauchspeck ist von Fleisch durchzogen.", 6),
+            new Item(12, "Liebstoeckel", "Hat einen starken eigentuemlichen Geruch, seine Aromen wirken wie Geschmacksverstaerker bei pikanten Speisen. Es war Heilmittel, Zauberpflanze und Gewuerz zugleich.", 7),
+            new Item(13, "Reispflanze", "Reis wurde in Europa bis nach Norditalien angebaut. Sein hoher Staerkegehalt ist fuer Muse und Breispeisen wichtig.", 8),
             ///////////
             // Rezept Level 3 - Krumme Krapfen und Pflaumensauce
-            new Item(14, "Pflaume", "Die Pflaume (Zwetschke) ist eine uralte europäische Kulturpflanze. Der Fruchtzucker von Früchten ist im Mittelalter eine der wenigen Quellen für Süßigkeiten.", 0),
-            new Item(15, "Rotwein", "Teuerer, oft importierter Wein war ein Luxusgut, mit Wasser verdünnter billiger Wein war ein Alltagsgetränk für alle Altersgruppen. Die Säure und der leichte Alkoholgehalt garantierten, dass der Wein nicht verdarb.", 1),
-            new Item(16, "Ingwer", "Eines der drei Standardgewürze des deutschen Mittelalters. Ein Rezept lässt vermuten, dass die Ingwerwurzel frisch und nicht getrocknet importiert wurde.", 2),
-            new Item(17, "Zimt", "Um den Zimt ranken sich sagenhafte Geschichten: Das Nest des Phönix sei aus Zimt gebaut, die Ernte entsprechend gefährlich. Das Gewürz wird mit vielen, auch pikanten Zutaten kombiniert.", 3),
-            new Item(8, "Mehl", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 2),
-            new Item(9, "Schweineschmalz", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 1),
-            // Salz, Inventarposition 2
-            // Pfeffer, Inventarposition 3
+            new Item(14, "Pflaume", "Die Pflaume (Zwetschke) ist eine uralte europaeische Kulturpflanze. Der Fruchtzucker von Fruechten ist im Mittelalter eine der wenigen Quellen fuer Sueßigkeiten.", 0),
+            new Item(15, "Rotwein", "Teuerer, oft importierter Wein war ein Luxusgut, mit Wasser verduennter billiger Wein war ein Alltagsgetraenk fuer alle Altersgruppen. Die Saeure und der leichte Alkoholgehalt garantierten, dass der Wein nicht verdarb.", 1),
+            new Item(16, "Ingwer", "Eines der drei Standardgewuerze des deutschen Mittelalters. Ein Rezept laesst vermuten, dass die Ingwerwurzel frisch und nicht getrocknet importiert wurde.", 2),
+            new Item(17, "Zimt", "Um den Zimt ranken sich sagenhafte Geschichten: Das Nest des Phoenix sei aus Zimt gebaut, die Ernte entsprechend gefaehrlich. Das Gewuerz wird mit vielen, auch pikanten Zutaten kombiniert.", 3),
+            new Item(19, "Gewuerznelken", "Sie erinnern in ihrer Form an kleine Naegel: Daraus leitete sich im Mittelhochdeutschen der Name des Gewuerzes ab.", 4),
+            new Item(20, "Mehl", "Getreide war das Grundnahrungsmittel des Mittelalters und wurde gekocht als Brei oder gebacken Brot gegessen.", 5),
+            new Item(21, "Ei", "Ein Ei ist bei kuehler Lagerung monatelang haltbar. In den mittelalterlichen Rezeptsammlungen sind Eier die haeufigste Zutat.", 6),
+            new Item(22, "Kaese", "Kaese ist konservierte Milch. Kaeselaibe waren beliebte Abgaben, da sie lange aufbewahrt werden konnten. In den Rezepten wird Frisch- und Hartkaese genannt.", 7), 
+            new Item(23, "Salz", "Es wurde in wasserdichten Faessern mit dem Schiff und mit Lasttieren transportiert.", 8), 
+            new Item(24, "Pfeffer", "Im Mittelalter waren mehrere Pfeffersorten bekannt: Langer Pfeffer, Kubebenpfeffer, Schwarzer Pfeffer. Sie alle haben unterschiedliche Geschmacksrichtungen.", 9),
+            new Item(25, "Butterschmalz", "Durch das Abkochen von Butter verdampf das darin enthaltene Wasser, die Butter wird dadurch sehr lange haltbar.", 10),
+            new Item(26, "Muskatnuss", "Ein weiteres Importgewuerz, das der Samen des Muskatnussbaumes ist. Er ist von einer roten Huelle umgeben, die als das Gewuerz Macis bekannt ist.", 11),
+            new Item(27, "Hufeisen", "Meister Hans muss den perfekten Krummen Krapfen formen!", 12),
             
-            
-            
-            new Item(13, "Hufeisen", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 7),
+   
             ///////////
             // Rezept 4
-            new Item(14, "Milch", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 0),
+            new Item(14, "Milch", "", 0),
             // Schweineschmalz Inventarposition  1
             // Salz, Inventarposition 2
             // Pfeffer, Inventarposition 3
-            new Item(16, "Brot", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 4),
-            new Item(17, "Gelberübe", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 5),
-            new Item(18, "Petersilwurzel", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 6),
-            new Item(19, "Apfelsaft", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 7),
-            new Item(20, "Zwiebel", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 8),
-            new Item(21, "Olivenoel", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 9),
-            new Item(22, "Rindfleisch", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 10),
-            new Item(23, "Haselnuss", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 11),
-            new Item(24, "Kochlöffel", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 12),
-            new Item(15, "Bratenssaft", "Lorem Ipsum Dolore Lorem Ipsum Dolore", 13)
+            new Item(16, "Brot", "", 4),
+            new Item(17, "Gelberuebe", "", 5),
+            new Item(18, "Petersilwurzel", "", 6),
+            new Item(19, "Apfelsaft", "", 7),
+            new Item(20, "Zwiebel", "", 8),
+            new Item(21, "Olivenoel", "", 9),
+            new Item(22, "Rindfleisch", "", 10),
+            new Item(23, "Haselnuss", "", 11),
+            new Item(24, "Kochloeffel", "", 12),
+            new Item(15, "Bratenssaft", "", 13)
         };
     }
 }

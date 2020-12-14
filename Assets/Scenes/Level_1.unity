@@ -15279,10 +15279,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1150072791}
   - component: {fileID: 1150072795}
-  - component: {fileID: 1150072794}
   - component: {fileID: 1150072793}
   - component: {fileID: 1150072792}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Petersilie
   m_TagString: ingredient
   m_Icon: {fileID: 0}
@@ -15297,8 +15296,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150072790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.79, y: -1.2, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
+  m_LocalPosition: {x: -2.1499996, y: -1.2, z: 0}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1704491917}
   m_RootOrder: 0
@@ -15347,25 +15346,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!95 &1150072794
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150072790}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 850f07d1776a61946bd124521b706452, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1150072795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16447,10 +16427,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1272270394}
   - component: {fileID: 1272270398}
-  - component: {fileID: 1272270397}
   - component: {fileID: 1272270396}
   - component: {fileID: 1272270395}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Schnittlauch
   m_TagString: ingredient
   m_Icon: {fileID: 0}
@@ -16465,8 +16444,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272270393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.62, y: -1.12, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.2998424}
+  m_LocalPosition: {x: -4.09, y: 1.38, z: 0}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1704491917}
   m_RootOrder: 4
@@ -16515,25 +16494,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!95 &1272270397
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272270393}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 102a02ac544ac9e459cbea62cb18d248, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1272270398
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16573,7 +16533,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1c922c2d91e4d1443bb162207f33f5fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3082a1ec045d3444e95140806023f613, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16612,8 +16572,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280287425}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.76, y: -9.22, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 4}
+  m_LocalPosition: {x: 0.8300004, y: -1.06, z: 0}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1704491917}
   m_RootOrder: 1
@@ -47665,7 +47625,7 @@ GameObject:
   - component: {fileID: 1456516396}
   - component: {fileID: 1456516395}
   - component: {fileID: 1456516397}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mangold
   m_TagString: ingredient
   m_Icon: {fileID: 0}
@@ -47680,8 +47640,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456516393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.75, y: -1.03, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 4}
+  m_LocalPosition: {x: 3.3900003, y: -1.03, z: 0}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1704491917}
   m_RootOrder: 2
@@ -48166,7 +48126,7 @@ GameObject:
   - component: {fileID: 1515738892}
   - component: {fileID: 1515738894}
   - component: {fileID: 1515738893}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Salbei
   m_TagString: ingredient
   m_Icon: {fileID: 0}
@@ -48181,8 +48141,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515738889}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 300.2, y: 2.3, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 4}
+  m_LocalPosition: {x: -2.1599996, y: 1.08, z: 0}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1704491917}
   m_RootOrder: 3
