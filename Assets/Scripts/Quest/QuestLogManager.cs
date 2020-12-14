@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class QuestLogManager : MonoBehaviour
 {
     public GameObject questLogPanel;
-    public GameObject closeButton;
+    //public GameObject closeButton;
     public ItemDatabase itemDatabase;
     private GameObject ingredientEntry;
     public GameObject ingredientList;
@@ -15,15 +15,15 @@ public class QuestLogManager : MonoBehaviour
     
     //private GameObject ingredientDescription;
     //public GameObject ingredientDescriptionList;
-    public GameObject ingredientPrefab_Description;
+    //public GameObject ingredientPrefab_Description;
     
 
     private bool questLogPanelOn = false;
 
-    void CloseButton(){
+    /*void CloseButton(){
         closeButton.SetActive(false);
         Time.timeScale = 1;
-    }    
+    } */   
 
     // QuestLogPanel 
     void Start()

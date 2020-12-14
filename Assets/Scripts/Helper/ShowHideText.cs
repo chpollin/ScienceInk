@@ -16,12 +16,16 @@ public class ShowHideText : MonoBehaviour
      void Awake()
     {
         Button myButton = this.gameObject.GetComponent<Button>();
-        myButton.onClick.AddListener ((UnityEngine.Events.UnityAction) this.OnClick);
-        itemDB = GameObject.Find("ItemDatabase");    
+        Debug.Log(myButton);  
+        myButton.onClick.AddListener((UnityEngine.Events.UnityAction) this.OnClick);
+        itemDB = GameObject.Find("ItemDatabase");  
+        
+        Debug.Log("Button in Questlog Entry createded on Awake");  
     }
 
     public void OnClick()
     {
+        
         // cant put object into Awake as it is not active from start on
         DescList = GameObject.Find("DescList");
         Button myButton = this.gameObject.GetComponent<Button>();
