@@ -31,15 +31,18 @@ public class FallingDown : MonoBehaviour
     ////////////////////////////////////////////////
     public void OnTriggerExit2D(Collider2D collider)
     {
-     if (!_triggered)
-     {
-        animator.SetBool("IsHurt", false);
-        animator.SetBool("IsJumping", false);
-        // player respawns at position of last triggerd checkpoint
-        gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        collider.transform.position = gameManager.lastCheckPointPos;
-     }
-     _triggered = false;
+        if(collider.gameObject.tag == "Player")
+        {   
+            if (!_triggered)
+            {
+                animator.SetBool("IsHurt", false);
+                animator.SetBool("IsJumping", false);
+                // player respawns at position of last triggerd checkpoint
+                gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+                collider.transform.position = gameManager.lastCheckPointPos;
+            }
+            _triggered = false;
+        }
     }
 
 }
