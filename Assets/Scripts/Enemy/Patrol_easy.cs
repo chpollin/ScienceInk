@@ -9,7 +9,7 @@ public class Patrol_easy : MonoBehaviour
     private bool movingRight = true; 
     public Transform groundDetection;
     public AudioClip soundEffect;
-    private int health = 1;
+    public int health;
     SpriteRenderer sr;
     private Material matWhite;
     private Material matDefault;

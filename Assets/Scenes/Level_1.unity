@@ -1143,6 +1143,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 200752288}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &82938200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,7 +1359,6 @@ Transform:
   - {fileID: 540602766}
   - {fileID: 390616375}
   - {fileID: 703522524}
-  - {fileID: 482590069}
   - {fileID: 1430731587}
   - {fileID: 138170564}
   - {fileID: 540832694}
@@ -1689,7 +1689,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 96636115}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &138170565
 MonoBehaviour:
@@ -2492,6 +2492,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 914244470}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &261309421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,6 +3837,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 868517670}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &381973776
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,92 +5218,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f362e070416c4089a393f9df8405a, type: 3}
---- !u!1 &482590067
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 482590069}
-  - component: {fileID: 482590068}
-  m_Layer: 0
-  m_Name: A*
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &482590068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482590067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  data:
-    dataString: UEsDBBQAAAgIAAAIIexQurt+YQIAAAYFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMuS2jAQ/BVK50DZPALklgDL5sBCLZvaiy/CGmMVsuSS5OVV/HtGso0d54Toeai7Z+Q74dLkEFul15qzjWJAfvSIO5NvvSb4Chd6VHLPb1DnfHJmU5dEfc47tVwhHroyozKwmsc/5VG45ADBQvJE6WzFjrBQxhqEEyoMYEgr66olQvceueBPf+5KrngaTt3phqd50HvgMQZpQTep4Ww0GM3CYDKrKoJBMJqG02kwm8yr0rKykLGgWQ7MyWgajIP6rnGZJ1FhleLUxEoIbip6xF5zL3+fp6DB6WecolpPKRyMEEiBH1PruLert0liwFZmaHpdco22lW3JL1V6mVFzKpl9UVHAk3rZcvNftB/6cKJV9lrfGno9NuXx6Z1eY2psy+o2vGwR9/acqTjRg4DPFOSbWmtVSIZBqwtXWhgYLpu/T2GLFOJTg5dUO2CRN37XbtdzdRoeXvtlIXh28CMcl8BeKG+3XwfQOJjfSNgvi6laIOpY/DHwQY/traoCL1wbi6FKpXT0DqrQLpWsvGdOTWEXSkvwcEU6B0mFve6wje0OsBNrXduJvFD3fqrLq1j9LDolHm7yg6AT2qnzc1gmVecNmHRbWMElNKRd4A19Wigpy/1qe1KX7Qud0LhVdiw4+3e1CBuNh/MkmQ+ThE0OIfSTw/QwnQzDOJyPwu9hQPzucYk6qdiVRCt7cGqyaS5xz+rPSm+tae53nWl6XvNbplqWc5mofawB5Lbs8CQOGi/BR8lWjKNBe7CWSz9vco+IUPEJWPRsFHmlq4vVNGq6RCTnX8o6JCIL/x2JyIM8/gJQSwMEFAAACAgAAAgh7B07jcltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tFKKsYmRZVqapVFaWoppkmGqblqSeZK5qZFhsqGlsaGZoYFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7FC6u35hAgAABgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7B07jcltAAAAeAAAAAkAJAAAAAAAAAAAAAAArgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABmAwAAAAA=
-    upgradeData: 
-    file_cachedStartup: {fileID: 0}
-    data_cachedStartup: 
-    cacheStartup: 0
-  showNavGraphs: 1
-  showUnwalkableNodes: 1
-  debugMode: 0
-  debugFloor: 0
-  debugRoof: 1
-  manualDebugFloorRoof: 0
-  showSearchTree: 0
-  unwalkableNodeDebugSize: 0.3
-  logPathResults: 0
-  maxNearestNodeDistance: 100
-  scanOnStartup: 1
-  fullGetNearestSearch: 0
-  prioritizeGraphs: 0
-  prioritizeGraphsLimit: 1
-  colorSettings:
-    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
-    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
-    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
-    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
-    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
-    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
-    _AreaColors:
-    - {r: 0, g: 0, b: 0, a: 0}
-  tagNames: []
-  heuristic: 2
-  heuristicScale: 1
-  threadCount: 1
-  maxFrameTime: 10
-  batchGraphUpdates: 0
-  graphUpdateBatchingInterval: 0.2
-  euclideanEmbedding:
-    mode: 0
-    seed: 0
-    pivotPointRoot: {fileID: 0}
-    spreadOutCount: 1
-  showGraphs: 1
---- !u!4 &482590069
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482590067}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.03, y: 0.7, z: -103.72678}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 96636115}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &489402709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3836595690117909514, guid: 0235d52bcbe2d294a860ac0a6c2c8fd8,
@@ -10205,7 +10121,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 96636115}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541090578
 GameObject:
@@ -14809,6 +14725,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 747515460}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &866010823
 GameObject:
   m_ObjectHideFlags: 0
@@ -15147,6 +15064,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 36656241}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &877692508
 GameObject:
   m_ObjectHideFlags: 0
@@ -16456,6 +16374,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 1731355482}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1001 &965964034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17059,6 +16978,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 1107400947}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!4 &1021818062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
@@ -17377,7 +17297,7 @@ PrefabInstance:
     - target: {fileID: 6193917355337263388, guid: 563e7e20e666e464482c55cf447f7454,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6193917355573412134, guid: 563e7e20e666e464482c55cf447f7454,
         type: 3}
@@ -18397,6 +18317,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 547928373}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1001 &1192687958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18590,6 +18511,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 1025348198}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &1204151425 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3836595690186861733, guid: 0235d52bcbe2d294a860ac0a6c2c8fd8,
@@ -18618,6 +18540,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 2141915083}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &1208162741
 GameObject:
   m_ObjectHideFlags: 0
@@ -20073,7 +19996,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 96636115}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1304194005
 PrefabInstance:
@@ -20319,6 +20242,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 1977827536}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &1321937346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3836595690186861733, guid: 0235d52bcbe2d294a860ac0a6c2c8fd8,
@@ -20347,6 +20271,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 1907977182}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!4 &1323526800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
@@ -50554,7 +50479,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 96636115}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1437087860
 PrefabInstance:
@@ -51587,6 +51512,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 1615502968}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &1515738889
 GameObject:
   m_ObjectHideFlags: 0
@@ -139951,6 +139877,7 @@ MonoBehaviour:
   distance: 3
   groundDetection: {fileID: 905746603}
   soundEffect: {fileID: 8300000, guid: 4be98aff9aab9254b8ce7b694aa7c8b9, type: 3}
+  health: 0
 --- !u!1 &2028928510
 GameObject:
   m_ObjectHideFlags: 0
@@ -142595,7 +142522,7 @@ PrefabInstance:
     - target: {fileID: 6193917355337263388, guid: 563e7e20e666e464482c55cf447f7454,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6193917355573412134, guid: 563e7e20e666e464482c55cf447f7454,
         type: 3}
