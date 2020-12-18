@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public float restartDelay = 1f;
     public Vector2 lastCheckPointPos;
 
+
+
+
     //////////////////////////////////
     public void BacktoMainMenu()
     {

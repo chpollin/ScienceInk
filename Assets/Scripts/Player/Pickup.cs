@@ -37,7 +37,6 @@ public class Pickup : MonoBehaviour
                         {
                             Time.timeScale = 0;
                         }
-                        //questLogPanel.gameObject.SetActive(true);
                     } 
                     if(item_id == 100)
                     {

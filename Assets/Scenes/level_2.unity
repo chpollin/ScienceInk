@@ -77800,12 +77800,12 @@ PrefabInstance:
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: -250
       objectReference: {fileID: 0}
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.1
+      value: -18.11
       objectReference: {fileID: 0}
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
@@ -119193,12 +119193,12 @@ PrefabInstance:
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: -250
       objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 44.871998
+      value: -18.338001
       objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
@@ -119302,7 +119302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 1
-  lastCheckPointPos: {x: -0.3, y: 45.1}
+  lastCheckPointPos: {x: -250, y: -18.11}
 --- !u!114 &1589637377
 MonoBehaviour:
   m_ObjectHideFlags: 0

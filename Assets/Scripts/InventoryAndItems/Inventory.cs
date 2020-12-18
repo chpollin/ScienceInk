@@ -14,7 +14,6 @@ public class Inventory : MonoBehaviour
         Item itemToAdd = itemDatabase.GetItemByID(item_id);
         characterItems.Add(itemToAdd);
         inventoryUI.AddNewItem(itemToAdd);
-        Debug.Log("Added item: " + itemToAdd.title);
     }
 
     public Item CheckForItem(int item_id)

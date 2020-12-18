@@ -118,6 +118,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 906e83667b605614893cee0c122cca9a, type: 3}
   item_id: 100
   inventory: {fileID: 0}
+  questLogPanel: {fileID: 0}
   questLogManager: {fileID: 0}
   almondValue: 1
 --- !u!61 &1526231598451550825
@@ -133,7 +134,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0028596893, y: 0.0028594434}
+  m_Offset: {x: 0.0028596818, y: -0.0026648045}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -144,5 +145,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33415264, y: 0.31699514}
+  m_Size: {x: 0.33415264, y: 0.39801806}
   m_EdgeRadius: 0

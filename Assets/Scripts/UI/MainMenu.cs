@@ -5,21 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject mainMenu;
    public void PlayGame ()
    {
-       Debug.Log("Menu: Play Game");
-       SceneManager.LoadScene("cutscene_intro");
+       SceneManager.LoadScene("0_cutscene_prelude");
    }
 
     public void QuitGame ()
    {
-       Debug.Log("Menu: Quit Game");
        Application.Quit();
    }
 
     public void RestartGame ()
    {
-       Debug.Log("Menu: Restart Game");
        SceneManager.LoadScene("Level_1");
    }
 }

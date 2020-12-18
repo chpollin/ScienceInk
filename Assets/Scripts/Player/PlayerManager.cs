@@ -26,15 +26,12 @@ public class PlayerManager : MonoBehaviour
         switch(obj.tag)
         {
             case "currency":
-                // erhöhe die anzahl der mandeln
                 //mandelCount++;
                 //mandelNumberText.text = "X" + mandelCount.ToString();
-                Debug.Log("Currency picked up");
                 return true;
                 break;
             case "ingredient":
                 // kochzutaten kommen ins inventar
-                 Debug.Log("Ingredient picked up");
                 return true;
                 break;
             default:
@@ -71,8 +68,7 @@ public class PlayerManager : MonoBehaviour
         if(Input.GetKeyDown("a"))
             {isFacingLeft = true;}
         else if(Input.GetKeyDown("d"))
-            {isFacingLeft = false;}
-        
+            {isFacingLeft = false;} 
          // mousclick left = Fire1M for firing almond
          // || Input.GetKeyDown(KeyCode.Mouse0)
         if(Input.GetKeyDown("e") )

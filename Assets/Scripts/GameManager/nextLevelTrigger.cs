@@ -10,6 +10,14 @@ public class nextLevelTrigger : MonoBehaviour
     public float transitionTime = 1f;
     public GameManager gameManager;
     public GameObject Ingredients;
+    GameObject NotAllIngredientsFoundPanel;
+
+    void Start()
+    {
+        NotAllIngredientsFoundPanel = GameObject.Find("NotAllIngredientsFound");
+        NotAllIngredientsFoundPanel.SetActive(false);
+
+    }
 
     //////////////////////////////
     void OnTriggerEnter2D(Collider2D other)
@@ -23,10 +31,18 @@ public class nextLevelTrigger : MonoBehaviour
         }
         else
         {
-
-            Debug.Log("Ich habe noch nicht alle Zutaten gefunden. Es fehlen noch " + Ingredients.transform.childCount + " Zutaten");
+            NotAllIngredientsFoundPanel.SetActive(true);
+            StartCoroutine(disable_NotAllIngredientsFoundPanel());
+            
         }
         //gameManager.CompleteLevel();
+    }
+
+    IEnumerator disable_NotAllIngredientsFoundPanel()
+    {
+        Debug.Log("Ich habe noch nicht alle Zutaten gefunden. Es fehlen noch " + Ingredients.transform.childCount + " Zutaten");
+        yield return new WaitForSeconds(5);
+        NotAllIngredientsFoundPanel.SetActive(false);
     }
 
     //////////////////////////////

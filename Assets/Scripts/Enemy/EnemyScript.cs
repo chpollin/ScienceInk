@@ -34,13 +34,13 @@ public class EnemyScript : MonoBehaviour
     ////////////////////////////////////////////////
     public void OnTriggerExit2D(Collider2D collider)
     {
-     if (!_triggered)
+     if (_triggered)
      {
-          if(collider.gameObject.tag == "Player")
-            {
+        if(collider.gameObject.tag == "Player")
+        {
             animator.SetBool("IsHurt", false);
             animator.SetBool("IsJumping", false);
-            }
+        }
      }
      _triggered = false;
     }
