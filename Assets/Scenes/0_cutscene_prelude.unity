@@ -282,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 458958717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1281c576393bb5a4e8f7c6b42cf9e289, type: 3}
+  m_Script: {fileID: 11500000, guid: dc66ed4b9aad0d949b5bf2a1be74389e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &458958720
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 2.6, y: 393.8}
-  m_SizeDelta: {x: 801.32544, y: 677.60144}
+  m_AnchoredPosition: {x: 2.6, y: 653.7}
+  m_SizeDelta: {x: 801.32544, y: 1197.3351}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1193880209
 MonoBehaviour:
@@ -1199,7 +1199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   repeat: 0
-  scrollSpeed: 0.75
+  scrollSpeed: 0.45
   textToScroll: {fileID: 1455444773}
 --- !u!1001 &1197419280
 PrefabInstance:
@@ -1283,7 +1283,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: abdc3f71b3d1b164394734a05613df34, type: 3}
+      objectReference: {fileID: 8300000, guid: 76b7410b3a9a892459f6f7811a1e4e17, type: 3}
+    - target: {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: Pan2D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: Priority
+      value: 205
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1344,8 +1369,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b94f335e15bd536439b0719687a6b7d6, type: 3}
 --- !u!1 &1229117541
 GameObject:
@@ -1788,8 +1812,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.00000011921, y: 338.8}
-  m_SizeDelta: {x: 750, y: 677.5977}
+  m_AnchoredPosition: {x: 0.00000011921, y: 339.4}
+  m_SizeDelta: {x: 750, y: 678.9085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861598788
 MonoBehaviour:
