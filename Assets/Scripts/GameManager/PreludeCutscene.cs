@@ -15,6 +15,12 @@ public class PreludeCutscene : MonoBehaviour
     {
         yield return new WaitForSeconds(60f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-     }
+    }
+
+    public void LoadOnClick()
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);  
+    }
+
 
 }

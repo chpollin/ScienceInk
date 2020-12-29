@@ -27,7 +27,7 @@ public class nextLevelTrigger : MonoBehaviour
         if(Ingredients.transform.childCount == 0)
         {
             //SceneManager.LoadScene(newLevel);
-            StartCoroutine( LoadLevel(SceneManager.GetActiveScene().buildIndex+1) );
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1) );
         }
         else
         {
