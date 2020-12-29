@@ -61,24 +61,23 @@ public class ItemDatabase : MonoBehaviour
             new Item(25, "Butterschmalz", "Durch das Abkochen von Butter verdampf das darin enthaltene Wasser, die Butter wird dadurch sehr lange haltbar.", 10),
             new Item(26, "Muskatnuss", "Ein weiteres Importgewuerz, das der Samen des Muskatnussbaumes ist. Er ist von einer roten Huelle umgeben, die als das Gewuerz Macis bekannt ist.", 11),
             new Item(27, "Hufeisen", "Meister Hans muss den perfekten Krummen Krapfen formen!", 12),
-            
-   
             ///////////
             // Rezept 4
-            new Item(14, "Milch", "", 0),
-            // Schweineschmalz Inventarposition  1
-            // Salz, Inventarposition 2
-            // Pfeffer, Inventarposition 3
-            new Item(16, "Brot", "", 4),
-            new Item(17, "Gelberuebe", "", 5),
-            new Item(18, "Petersilwurzel", "", 6),
-            new Item(19, "Apfelsaft", "", 7),
-            new Item(20, "Zwiebel", "", 8),
-            new Item(21, "Olivenoel", "", 9),
-            new Item(22, "Rindfleisch", "", 10),
-            new Item(23, "Haselnuss", "", 11),
-            new Item(24, "Kochloeffel", "", 12),
-            new Item(15, "Bratenssaft", "", 13)
+            new Item(28, "Milch", "Milch", 0),
+            new Item(29, "Brot", "Brot", 1),
+            new Item(30, "Gelberuebe", "Gelberuebe", 2),
+            new Item(31, "Petersilwurzel", "Petersilwurzel",3),
+            new Item(32, "Apfelsaft", "Apfelsaft", 4),
+            new Item(33, "Zwiebel", "Zwiebel", 5),
+            new Item(34, "Olivenoel", "Olivenoel", 6),
+            new Item(35, "Rindfleisch", "Rindfleisch", 7),
+            new Item(36, "Haselnuss", "Haselnuss", 8),
+            new Item(37, "Kochloeffel", "Kochloeffel", 9),
+            new Item(38, "Bratenssaft", "Bratenssaft", 10),
+            new Item(39, "Pfeffer", "Pfeffer", 11),
+            new Item(40, "Salz", "Salz", 12),
+            new Item(41, "Schweineschmalz", "Schweineschmalz", 13),
+            new Item(42, "Wein", "Wein", 14)
         };
     }
 }
