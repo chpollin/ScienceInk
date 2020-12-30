@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Pickup : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class Pickup : MonoBehaviour
     bool _triggered;
     public int almondValue = 1;
     bool isPaused = false;
+    public GameObject PopUpPanel;
+    public ItemDatabase itemDatabase;
+
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -24,7 +28,7 @@ public class Pickup : MonoBehaviour
                 bool pickedUp = manager.PickupItem(gameObject);
                 if(pickedUp)
                 {
-                    RemoveItem();
+                   
                     // pick up and add item to the inventory
                     //ToDo Almond has id=100; select by tag would be better
                     if(item_id<99)
@@ -32,22 +36,39 @@ public class Pickup : MonoBehaviour
                         inventory.GiveItem(item_id);
                         // also add ingredient in the QuestLog
                         questLogManager.addIngredientToQuest(item_id);
-                        //isPaused = true;
+                        Item ingredient = itemDatabase.GetItemByID(item_id);
+                        // show text that ingredient X is picked up
+                        PopUpPanel.GetComponentInChildren<TextMeshProUGUI>().text = ingredient.title + "\n\n Mehr Info im Questlog (Q)";
+                        PopUpPanel.SetActive(true);   
                         if(isPaused)
                         {
                             Time.timeScale = 0;
                         }
+                        StartCoroutine(disable_PopUpPanelPanel());
                     } 
                     if(item_id == 100)
                     {
+                        // Destroy GameObject with the PickUp script after WaitForSeconds(3)
+                        RemoveItem();
                         PlayerManager.instance.ChangeScore(almondValue);
                     }
+                    
                 }
             Physics2D.IgnoreCollision(collision, GetComponent<Collider2D>());    
             }
         }
          _triggered = true;
     }
+
+
+    IEnumerator disable_PopUpPanelPanel()
+    {
+        yield return new WaitForSeconds(3);
+        PopUpPanel.SetActive(false);
+        // Destroy GameObject with the PickUp script after WaitForSeconds(3)
+        RemoveItem(); 
+    }
+
 
     // fixing firing OnTrigget Twice; set a boolean value when triggered
     public void OnTriggerExit2D(Collider2D collision)
@@ -59,6 +80,7 @@ public class Pickup : MonoBehaviour
      _triggered = false;
     }
 
+    //   
     public void pauseGame()
     {
         if(isPaused){
@@ -71,13 +93,11 @@ public class Pickup : MonoBehaviour
         }
     }
 
+    // destroy picked up item
     public void RemoveItem()
     {
         AudioSource.PlayClipAtPoint(soundEffect, transform.position);
         Destroy(gameObject);
     }
-
-
-
 
 }

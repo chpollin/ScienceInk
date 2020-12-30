@@ -40,7 +40,6 @@ public class nextLevelTrigger : MonoBehaviour
 
     IEnumerator disable_NotAllIngredientsFoundPanel()
     {
-        Debug.Log("Ich habe noch nicht alle Zutaten gefunden. Es fehlen noch " + Ingredients.transform.childCount + " Zutaten");
         yield return new WaitForSeconds(5);
         NotAllIngredientsFoundPanel.SetActive(false);
     }
