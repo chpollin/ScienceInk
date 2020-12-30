@@ -28,7 +28,8 @@ public class Pickup : MonoBehaviour
                 bool pickedUp = manager.PickupItem(gameObject);
                 if(pickedUp)
                 {
-                   
+                    gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                    AudioSource.PlayClipAtPoint(soundEffect, transform.position);
                     // pick up and add item to the inventory
                     //ToDo Almond has id=100; select by tag would be better
                     if(item_id<99)
@@ -48,8 +49,7 @@ public class Pickup : MonoBehaviour
                     } 
                     if(item_id == 100)
                     {
-                        // Destroy GameObject with the PickUp script after WaitForSeconds(3)
-                        RemoveItem();
+                        Destroy(gameObject);
                         PlayerManager.instance.ChangeScore(almondValue);
                     }
                     
@@ -66,7 +66,7 @@ public class Pickup : MonoBehaviour
         yield return new WaitForSeconds(3);
         PopUpPanel.SetActive(false);
         // Destroy GameObject with the PickUp script after WaitForSeconds(3)
-        RemoveItem(); 
+        Destroy(gameObject); 
     }
 
 
@@ -92,12 +92,4 @@ public class Pickup : MonoBehaviour
             isPaused = true;
         }
     }
-
-    // destroy picked up item
-    public void RemoveItem()
-    {
-        AudioSource.PlayClipAtPoint(soundEffect, transform.position);
-        Destroy(gameObject);
-    }
-
 }

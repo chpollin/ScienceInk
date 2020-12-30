@@ -488,6 +488,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -933,7 +953,6 @@ RectTransform:
   - {fileID: 2224768117605633906}
   - {fileID: 832991998}
   - {fileID: 1188849730}
-  - {fileID: 1092562826}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1331,6 +1350,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1439,7 +1478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138170563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.32, z: 0}
+  m_LocalPosition: {x: 66.54, y: -6.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 96636115}
@@ -1838,6 +1877,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1958,6 +2017,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2135,6 +2214,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2505,7 +2604,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286608303}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.1064453}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1840392427}
@@ -2514,8 +2613,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 368.1244, y: 200.85934}
-  m_SizeDelta: {x: 850.6233, y: 443.59256}
+  m_AnchoredPosition: {x: 370.8, y: 310.6}
+  m_SizeDelta: {x: 466.23743, y: 141.04135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286608305
 MonoBehaviour:
@@ -2870,6 +2969,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3200,6 +3319,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3309,6 +3448,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3547,6 +3706,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3970,6 +4149,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4218,6 +4417,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5037,6 +5256,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5127,6 +5366,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9961,7 +10220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540602765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 66.54, y: -9.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 96636115}
@@ -10469,6 +10728,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12582,6 +12861,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13075,6 +13374,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13233,6 +13552,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13317,6 +13656,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13692,6 +14051,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14228,6 +14607,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14399,6 +14798,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15264,6 +15683,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15907,6 +16346,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16324,6 +16783,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16443,6 +16922,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16527,6 +17026,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16611,6 +17130,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17054,6 +17593,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17347,6 +17906,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17531,17 +18110,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092562825}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1064453}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1292333073}
   - {fileID: 717167187}
-  m_Father: {fileID: 82938201}
-  m_RootOrder: 5
+  m_Father: {fileID: 1188849730}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 33, y: -62.4}
+  m_AnchoredPosition: {x: 372.8244, y: 311.35938}
   m_SizeDelta: {x: 500, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092562827
@@ -17649,6 +18228,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18008,7 +18607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150072790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.57, y: -0.23, z: 0}
+  m_LocalPosition: {x: 57.969997, y: -9.389999, z: 0}
   m_LocalScale: {x: 5.5, y: 5.5, z: 0}
   m_Children: []
   m_Father: {fileID: 1704491917}
@@ -18117,6 +18716,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18311,6 +18930,7 @@ Transform:
   - {fileID: 1902916191}
   - {fileID: 1058816764}
   - {fileID: 286608304}
+  - {fileID: 1092562826}
   m_Father: {fileID: 82938201}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18350,6 +18970,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18744,6 +19384,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18909,6 +19569,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19561,6 +20241,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19752,10 +20452,10 @@ RectTransform:
   m_Father: {fileID: 1092562826}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 172.8, y: -16.028}
-  m_SizeDelta: {x: 299.56662, y: 32.0558}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -77.2, y: -16.028}
+  m_SizeDelta: {x: 299.56665, y: 32.0558}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292333074
 MonoBehaviour:
@@ -19896,6 +20596,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20204,6 +20924,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20288,6 +21028,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20449,6 +21209,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49614,6 +50394,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49877,6 +50677,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50095,6 +50915,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50773,6 +51613,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50944,6 +51804,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51448,6 +52328,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51613,6 +52513,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52835,6 +53755,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53358,6 +54298,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53913,6 +54873,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53997,6 +54977,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54152,6 +55152,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54449,6 +55469,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54573,7 +55613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 2053196847}
   transitionTime: 1
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 703522525}
   Ingredients: {fileID: 1704491916}
 --- !u!61 &1743652920
 BoxCollider2D:
@@ -54658,6 +55698,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -138907,7 +139967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 39}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840392428
@@ -138929,10 +139989,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Du hast X aufgenommen!
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -138995,21 +140056,21 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -180.67041, y: 0, z: -192.35156, w: 0}
+  m_margin: {x: -126.32233, y: 8.143799, z: -116.43677, w: -66.2561}
   m_textInfo:
     textComponent: {fileID: 1840392428}
-    characterCount: 29
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 5
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -139107,6 +140168,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -139223,6 +140304,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -139438,6 +140539,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -140152,6 +141273,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -141018,6 +142159,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -141396,6 +142557,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985900201}
     m_Modifications:
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 820667360}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogPanel
+      value: 
+      objectReference: {fileID: 832991997}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: questLogManager
+      value: 
+      objectReference: {fileID: 138170565}
+    - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
+        type: 3}
+      propertyPath: itemDatabase
+      value: 
+      objectReference: {fileID: 390616374}
     - target: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -142879,7 +144060,7 @@ PrefabInstance:
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
@@ -142985,7 +144166,7 @@ PrefabInstance:
     - target: {fileID: 7519944178292540122, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.03999996
       objectReference: {fileID: 0}
     - target: {fileID: 7519944178292540122, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
@@ -143025,7 +144206,7 @@ PrefabInstance:
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22799993
+      value: -0.9979999
       objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
