@@ -1196,9 +1196,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 14
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &49968846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1384,6 +1386,7 @@ RectTransform:
   - {fileID: 1106411066}
   - {fileID: 952990602}
   - {fileID: 2049450297}
+  - {fileID: 1827431200}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1483,9 +1486,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 20
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &76563664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1697,9 +1702,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 24
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &84868340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -81261,6 +81268,163 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1431264076}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &594154239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 594154240}
+  - component: {fileID: 594154242}
+  - component: {fileID: 594154241}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &594154240
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594154239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1827431200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 39}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &594154241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594154239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
+  m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_textAlignment: 258
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -126.32233, y: 8.143799, z: -116.43677, w: -66.2561}
+  m_textInfo:
+    textComponent: {fileID: 594154241}
+    characterCount: 0
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 0
+    linkCount: 0
+    lineCount: 0
+    pageCount: 0
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &594154242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594154239}
+  m_CullTransparentMesh: 0
 --- !u!1 &598753148
 GameObject:
   m_ObjectHideFlags: 0
@@ -81630,9 +81794,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 16
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &628593583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -82418,9 +82584,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 22
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &704168642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -111152,9 +111320,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 23
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1069373777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -111875,9 +112045,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 19
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1150287869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -114791,9 +114963,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 25
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1390613525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -115891,9 +116065,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 17
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1522063631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -117003,6 +117179,8 @@ MonoBehaviour:
   questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!212 &1702539027
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -117439,9 +117617,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 15
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1751521539
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118428,9 +118608,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 26
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1818500715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118686,6 +118868,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821348970}
+  m_CullTransparentMesh: 0
+--- !u!1 &1827431199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827431200}
+  - component: {fileID: 1827431202}
+  - component: {fileID: 1827431201}
+  m_Layer: 5
+  m_Name: PopUpPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1827431200
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827431199}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.1064453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 594154240}
+  m_Father: {fileID: 58705533}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -2.024414, y: 107.440674}
+  m_SizeDelta: {x: -424.76257, y: -213.95865}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1827431201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827431199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9019608}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9784e158aff1ea0439c8a68c08416de0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1827431202
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827431199}
   m_CullTransparentMesh: 0
 --- !u!1001 &1836928516
 PrefabInstance:
@@ -119381,9 +119638,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 21
   inventory: {fileID: 325424850}
-  questLogPanel: {fileID: 0}
+  questLogPanel: {fileID: 1106411065}
   questLogManager: {fileID: 2050529894}
   almondValue: 0
+  PopUpPanel: {fileID: 1827431199}
+  itemDatabase: {fileID: 385572442}
 --- !u!61 &1914359323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -123332,6 +123591,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: a0254a3865f9bcb44a33030c069222fb, type: 3}
+    - target: {fileID: 7519944179200015548, guid: b94f335e15bd536439b0719687a6b7d6,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.135
+      objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
