@@ -7,41 +7,47 @@ public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false; 
 
-    public float restartDelay = 1f;
+    public float restartDelay = 2f;
     public Vector2 lastCheckPointPos;
+    public GameObject MenuPanel;
+    private bool MenuPanelOn = false;
 
-
-
-
-    //////////////////////////////////
-    public void BacktoMainMenu()
+     // if Q is pressed open MenuPanel
+    void Update()
     {
-        gameHasEnded = true;
-        SceneManager.LoadScene("Menu");
-    }
-
-    //////////////////////////////////
-    public void CompleteLevel()
-    {
-        Debug.Log("Level 1");
-    }
-
-    //////////////////////////////////
-    public void EndGame()
-    {
-        if (gameHasEnded == false)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            gameHasEnded = true;
-            Debug.Log("Game Over");
-            Invoke("Restart", restartDelay);
+            if(MenuPanel.activeSelf) 
+            {
+                MenuPanelOn = true;
+            }
+            if(MenuPanelOn)
+            {
+                MenuPanel.SetActive(false);
+                MenuPanelOn = false;
+                Time.timeScale = 1;
+            }
+           else
+           {
+            MenuPanel.SetActive(true);
+            MenuPanelOn = true;
+            Time.timeScale = 0;
+           }
+           
         }
     }
 
     //////////////////////////////////
-    void Restart ()
+   /* public void EndGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+        if (gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            Invoke("Restart", restartDelay);
+        }
+    }*/
+
+
 
 
 }

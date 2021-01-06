@@ -7,7 +7,6 @@ public class nextLevelTrigger : MonoBehaviour
 {
     //[SerializeField] private string newLevel;
     public Animator transition;
-    public float transitionTime = 1f;
     public GameManager gameManager;
     public GameObject Ingredients;
     GameObject NotAllIngredientsFoundPanel;
@@ -50,7 +49,7 @@ public class nextLevelTrigger : MonoBehaviour
         transition.SetTrigger("Start");
 
         // just wait a bit
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(1f);
 
         SceneManager.LoadScene(levelIndex);
     }

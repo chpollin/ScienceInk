@@ -26,13 +26,15 @@ public class QuestLogManager : MonoBehaviour
         if (Input.GetKeyDown("q"))
         {
             if(questLogPanel.activeSelf) 
-            {questLogPanelOn = true;}
-           if(questLogPanelOn)
-           {
-            questLogPanel.SetActive(false);
-            questLogPanelOn = false;
-            Time.timeScale = 1;
-           }
+            {
+                questLogPanelOn = true;
+            }
+            if(questLogPanelOn)
+            {
+                questLogPanel.SetActive(false);
+                questLogPanelOn = false;
+                Time.timeScale = 1;
+            }
            else
            {
             questLogPanel.SetActive(true);

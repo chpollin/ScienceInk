@@ -15,6 +15,11 @@ public class IntroCutscenetoLevel1 : MonoBehaviour
     {
         yield return new WaitForSeconds(25f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-     }
+    }
+
+    public void LoadOnClick()
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);  
+    }
 
 }

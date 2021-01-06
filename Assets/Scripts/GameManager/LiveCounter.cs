@@ -22,7 +22,8 @@ public class LiveCounter : MonoBehaviour
     void Update()
     {
         if (health > 3)
-            health = 3;
+        //is needed
+        health = 3;
 
         switch (health)
         {
