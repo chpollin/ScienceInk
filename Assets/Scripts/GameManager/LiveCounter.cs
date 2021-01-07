@@ -9,8 +9,7 @@ public class LiveCounter : MonoBehaviour
     public GameObject health1, health2, health3;
     public static int health;
     public GameObject gameOverPanel;
-    public GameManager gameManager;
-
+    
     void Start()
     {
         health = 3;
