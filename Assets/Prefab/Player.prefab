@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 4283249275021194733}
   - component: {fileID: 4283249275021194734}
   - component: {fileID: 4283249275021194735}
-  - component: {fileID: 4283249275021194704}
   - component: {fileID: 4283249275021194705}
   m_Layer: 8
   m_Name: Player
@@ -256,20 +255,6 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: aee0f4be44d785347b86c3170de45676, type: 3}
   almondValue: 1
   bulletPrefab: {fileID: 0}
---- !u!114 &4283249275021194704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4283249275021194726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180c55d43f04f124997665134922387a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemDatabase: {fileID: 0}
-  inventoryUI: {fileID: 0}
 --- !u!114 &4283249275021194705
 MonoBehaviour:
   m_ObjectHideFlags: 0
