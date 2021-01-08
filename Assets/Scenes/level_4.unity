@@ -540,7 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 35
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 34
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -1956,7 +1956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 1
-  lastCheckPointPos: {x: -5.5, y: -0.8}
+  lastCheckPointPos: {x: -99.2, y: -4}
   MenuPanel: {fileID: 1348965093}
 --- !u!114 &154650035
 MonoBehaviour:
@@ -3580,7 +3580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 28
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -4170,7 +4170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 30
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -4305,7 +4305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 31
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -72267,7 +72267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 29
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -73696,18 +73696,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1714768533}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &821427124 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4283249275021194704, guid: ef3c7eaad32991c47bb612026b2309f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1714768533}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180c55d43f04f124997665134922387a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &835905323
 GameObject:
   m_ObjectHideFlags: 0
@@ -74703,7 +74691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 33
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -75776,6 +75764,7 @@ Transform:
   - {fileID: 526958646}
   - {fileID: 2032384594}
   - {fileID: 1678206382}
+  - {fileID: 1184132043}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -76109,7 +76098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 36
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -76690,7 +76679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 38
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -78395,7 +78384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 42
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -78645,6 +78634,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1987638337}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1184132042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1184132043}
+  - component: {fileID: 1184132045}
+  - component: {fileID: 1184132044}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1184132043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184132042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.7997408, y: 1.0740354, z: -103.72678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 994564668}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1184132044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184132042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1184132045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184132042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!4 &1187334160 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
@@ -79251,7 +79306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 32
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -79380,7 +79435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 37
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -81602,12 +81657,12 @@ PrefabInstance:
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.9
+      value: -99.2
       objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.9279995
+      value: 4.2720003
       objectReference: {fileID: 0}
     - target: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
         type: 3}
@@ -90232,7 +90287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 39
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -90425,7 +90480,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533182015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -101.52002, y: -20.249998, z: -51.495575}
+  m_LocalPosition: {x: -109.65, y: -17.83, z: -51.495575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 977783330}
@@ -93310,12 +93365,12 @@ PrefabInstance:
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.9
+      value: -99.2
       objectReference: {fileID: 0}
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.7
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4283249275021194728, guid: ef3c7eaad32991c47bb612026b2309f1,
         type: 3}
@@ -108154,7 +108209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 41
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -108289,7 +108344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 40
-  inventory: {fileID: 821427124}
+  inventory: {fileID: 2045065083}
   questLogPanel: {fileID: 1604011220}
   questLogManager: {fileID: 2032384595}
   almondValue: 0
@@ -109395,6 +109450,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 326171775}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2045065082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4283249275021194726, guid: ef3c7eaad32991c47bb612026b2309f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714768533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2045065083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045065082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180c55d43f04f124997665134922387a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDatabase: {fileID: 526958645}
+  inventoryUI: {fileID: 1120169428}
 --- !u!1001 &2063425454
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -492,7 +492,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -1527,7 +1527,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -2127,7 +2127,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -2267,7 +2267,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -2464,7 +2464,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -3189,7 +3189,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -3539,7 +3539,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -3668,7 +3668,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -3926,7 +3926,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -4400,7 +4400,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -4668,7 +4668,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -5507,7 +5507,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -5617,7 +5617,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -10823,7 +10823,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -12803,7 +12803,6 @@ MonoBehaviour:
   health2: {fileID: 1057391048}
   health3: {fileID: 1411374929}
   gameOverPanel: {fileID: 1058816761}
-  gameManager: {fileID: 0}
 --- !u!4 &703522524
 Transform:
   m_ObjectHideFlags: 0
@@ -13166,7 +13165,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -13679,7 +13678,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -13857,7 +13856,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -13961,7 +13960,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -14429,7 +14428,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -14855,18 +14854,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4283249274767808048}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &820667360 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4283249275021194704, guid: ef3c7eaad32991c47bb612026b2309f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 4283249274767808048}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094307384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180c55d43f04f124997665134922387a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &832338954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1526231598451550826, guid: df7f362e070416c4089a393f9df8405a,
@@ -14985,7 +14972,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -15176,7 +15163,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -16061,7 +16048,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -16724,7 +16711,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -17161,7 +17148,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -17300,7 +17287,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -17404,7 +17391,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -17508,7 +17495,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -18360,7 +18347,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -18675,7 +18662,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -18913,6 +18900,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a621a092bd2ddd41ac5520530897b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1094307394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094307384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180c55d43f04f124997665134922387a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDatabase: {fileID: 390616374}
+  inventoryUI: {fileID: 733576346}
 --- !u!1 &1096029231
 GameObject:
   m_ObjectHideFlags: 0
@@ -18967,7 +18968,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -19362,7 +19363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 0
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 1094307394}
   questLogPanel: {fileID: 832991997}
   questLogManager: {fileID: 138170565}
   almondValue: 0
@@ -19455,7 +19456,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -19838,7 +19839,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -20410,7 +20411,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -20595,7 +20596,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -21136,7 +21137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 4
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 1094307394}
   questLogPanel: {fileID: 832991997}
   questLogManager: {fileID: 138170565}
   almondValue: 0
@@ -21266,7 +21267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 1
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 1094307394}
   questLogPanel: {fileID: 832991997}
   questLogManager: {fileID: 138170565}
   almondValue: 0
@@ -21397,7 +21398,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -21752,7 +21753,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -22080,7 +22081,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -22184,7 +22185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -22365,7 +22366,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -51438,7 +51439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 0
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 0}
   questLogPanel: {fileID: 0}
   questLogManager: {fileID: 0}
   almondValue: 1
@@ -51550,7 +51551,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -51833,7 +51834,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -52071,7 +52072,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -52769,7 +52770,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -52960,7 +52961,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -53347,7 +53348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 2
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 1094307394}
   questLogPanel: {fileID: 832991997}
   questLogManager: {fileID: 138170565}
   almondValue: 0
@@ -53484,7 +53485,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -53669,7 +53670,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -54128,7 +54129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 3
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 1094307394}
   questLogPanel: {fileID: 832991997}
   questLogManager: {fileID: 138170565}
   almondValue: 0
@@ -55070,7 +55071,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -55613,7 +55614,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -56188,7 +56189,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -56292,7 +56293,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -56467,7 +56468,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -56784,7 +56785,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -57012,7 +57013,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -141482,7 +141483,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -141618,7 +141619,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -141853,7 +141854,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -142875,7 +142876,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -143740,7 +143741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 8300000, guid: 5ed9970e17bfee943a6dff056dc3a9d0, type: 3}
   item_id: 1
-  inventory: {fileID: 820667360}
+  inventory: {fileID: 0}
   questLogPanel: {fileID: 0}
   questLogManager: {fileID: 0}
   almondValue: 1
@@ -143891,7 +143892,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
@@ -144159,7 +144160,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 820667360}
+      objectReference: {fileID: 0}
     - target: {fileID: 1526231598451550824, guid: df7f362e070416c4089a393f9df8405a,
         type: 3}
       propertyPath: questLogPanel
