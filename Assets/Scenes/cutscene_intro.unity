@@ -1985,7 +1985,7 @@ GameObject:
   - component: {fileID: 1567772690}
   - component: {fileID: 1567772693}
   m_Layer: 0
-  m_Name: pixelart_boiler_1
+  m_Name: Boiler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2068,7 +2068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567772689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.61, y: -1.48, z: 0}
+  m_LocalPosition: {x: 10.1, y: -2.28, z: 0}
   m_LocalScale: {x: 7.8915377, y: 7.8915377, z: 7.8915377}
   m_Children: []
   m_Father: {fileID: 0}

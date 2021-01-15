@@ -20,6 +20,7 @@ public class Pickup : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
+
         PlayerManager manager = collision.GetComponent<PlayerManager>();
         // fixing firing OnTrigget Twice; set a boolean value when triggered
         if(_triggered){
