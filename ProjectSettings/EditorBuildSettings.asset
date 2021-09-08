@@ -8,19 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/intro_before_menu.unity
     guid: 4b40976e1608ff54293c5a3569b2cafb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 62572a1109deea14ba007b4ba5b9001b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/0_cutscene_prelude.unity
     guid: 9e8e24bf7c9d1bf47af193fba63e5a85
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/cutscene_intro.unity
     guid: e4607776289530544a4d1cf7b63f089d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level_1.unity
     guid: b5822362ff0acf54799ce8e4f50117b4
   - enabled: 0
@@ -47,7 +47,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/level_5.unity
     guid: ca622d3e8d18bc74d86959c94f483490
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/cutscene_outro.unity
     guid: 19713e5d6d99a6b44891c0053f39b61e
   m_configObjects: {}

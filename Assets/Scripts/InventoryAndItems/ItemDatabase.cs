@@ -42,13 +42,13 @@ public class ItemDatabase : MonoBehaviour
             new Item(7, "Huhn", "Es ist im Mittelalter fast in jedem Haushalt zu finden: Sie versorgten sich nahezu selbst, lieferten Eier und wurden als alte Huehner verkocht.", 2),
             new Item(8, "Salz", "Salz ist eines der wichtigen Konservierungsmittel. Es wurde im Bergbau gewonnen und danach in riesigen Pfannen ausgekocht und gereinigt.", 3),
             new Item(9, "Pfeffer", "Pfeffer wurde aus Indien ueber See- uns Landwege importiert und daher sehr teuer. Oft wurde es in Europa sogar als Zahlungsmittel eingesetzt.", 4),
-            new Item(10, "Erbsen", "Sie sind eine uralte europaeische Kulturpflanze. In den mittelalterlichen Rezeptsammlungen werden gruene, weiße und rote Erbsen genannt.", 5),
+            new Item(10, "Erbsen", "Sie sind eine uralte europaeische Kulturpflanze. In den mittelalterlichen Rezeptsammlungen werden gruene, weisse und rote Erbsen genannt.", 5),
             new Item(11, "Speck", "Poekeln (Einsalzen) und Raeuchern ist eine Moeglichkeit, Schweinefleisch fuer lange Zeit haltbar zu machen. Rueckenspeck ist fett (Lardo), Bauchspeck ist von Fleisch durchzogen.", 6),
             new Item(12, "Liebstoeckel", "Hat einen starken eigentuemlichen Geruch, seine Aromen wirken wie Geschmacksverstaerker bei pikanten Speisen. Es war Heilmittel, Zauberpflanze und Gewuerz zugleich.", 7),
             new Item(13, "Reispflanze", "Reis wurde in Europa bis nach Norditalien angebaut. Sein hoher Staerkegehalt ist fuer Muse und Breispeisen wichtig.", 8),
             ///////////
             // Rezept Level 3 - Krumme Krapfen und Pflaumensauce
-            new Item(14, "Pflaume", "Die Pflaume (Zwetschke) ist eine uralte europaeische Kulturpflanze. Der Fruchtzucker von Fruechten ist im Mittelalter eine der wenigen Quellen fuer Sueßigkeiten.", 0),
+            new Item(14, "Pflaume", "Die Pflaume (Zwetschke) ist eine uralte europaeische Kulturpflanze. Der Fruchtzucker von Fruechten ist im Mittelalter eine der wenigen Quellen fuer Suessigkeiten.", 0),
             new Item(15, "Rotwein", "Teuerer, oft importierter Wein war ein Luxusgut, mit Wasser verduennter billiger Wein war ein Alltagsgetraenk fuer alle Altersgruppen. Die Saeure und der leichte Alkoholgehalt garantierten, dass der Wein nicht verdarb.", 1),
             new Item(16, "Ingwer", "Eines der drei Standardgewuerze des deutschen Mittelalters. Ein Rezept laesst vermuten, dass die Ingwerwurzel frisch und nicht getrocknet importiert wurde.", 2),
             new Item(17, "Zimt", "Um den Zimt ranken sich sagenhafte Geschichten: Das Nest des Phoenix sei aus Zimt gebaut, die Ernte entsprechend gefaehrlich. Das Gewuerz wird mit vielen, auch pikanten Zutaten kombiniert.", 3),

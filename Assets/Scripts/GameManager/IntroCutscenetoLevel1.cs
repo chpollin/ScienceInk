@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class IntroCutscenetoLevel1 : MonoBehaviour
 {
+
+    public int second = 0;
+
     //////////////////////////////////
     public void Update()
     {
@@ -13,7 +16,7 @@ public class IntroCutscenetoLevel1 : MonoBehaviour
  
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(25f);
+        yield return new WaitForSeconds(second);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 

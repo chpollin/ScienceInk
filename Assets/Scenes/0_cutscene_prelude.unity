@@ -1413,16 +1413,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F\xFCrsten: \r\nUnser Land wird nicht gut regiert von dir, F\xFCrst Richard!
-    Die B\xFCrokratie vernichtet uns. Wir m\xFCssen endlich einen K\xF6nig haben!
-    Der Prinz ist alt genug - er soll heiraten und regieren!\r\n\r\nF\xFCrsten: \r\nWir
-    alle haben sch\xF6ne T\xF6chter. Von diesen wird er eine erw\xE4hlen.\r\n\r\nRichard:\r\nIch
-    stehe dem Thron am n\xE4chsten. Er wird meine Tochter heiraten.\r\n\r\nF\xFCrsten:
+  m_text: "Fuersten: \r\nUnser Land wird nicht gut regiert von dir, Fuerst Richard!
+    Die Buerokratie vernichtet uns. Wir m\xFCssen endlich einen Koenig haben! Der
+    Prinz ist alt genug - er soll heiraten und regieren!\r\n\r\nFuersten: \r\nWir
+    alle haben schoene Toechter. Von diesen wird er eine erw\xE4hlen.\r\n\r\nRichard:\r\nIch
+    stehe dem Thron am naechsten. Er wird meine Tochter heiraten.\r\n\r\nFuersten:
     \r\nWarum sollen wir dem zustimmen?\r\n\r\nRichard:\r\nUm euch zu \xFCberzeugen,
-    veranstalte ich ein Festmahl mit den besten Speisen eurer F\xFCrstent\xFCmer.\r\n\r\nRichard:
-    \r\nDas wird euch \xFCberzeugen und ihr werdet mich unterst\xFCtzen.\r\n\r\nF\xFCrsten:
-    \r\nYayy! Festmahl!! \r\n\r\nF\xFCrsten: \r\nAber das wird dir nur gelingen,
-    wenn du den besten Koch daf\xFCr einstellen kannst.\r\n\r\nRichard: \r\nDer beste
+    veranstalte ich ein Festmahl mit den besten Speisen eurer Fuerstentuemer.\r\n\r\nRichard:
+    \r\nDas wird euch ueberzeugen und ihr werdet mich unterstuetzen.\r\n\r\nF\xFCrsten:
+    \r\nYayy! Ein Festmahl!! \r\n\r\nF\xFCrsten: \r\nAber das wird dir nur gelingen,
+    wenn du den besten Koch dafuer einstellen kannst.\r\n\r\nRichard: \r\nDer beste
     Koch des Landes wird gesucht, um auf der Hochzeit zu kochen. Sein Gewicht wird
     in Safran aufgewogen werden."
   m_isRightToLeft: 0
@@ -1469,7 +1469,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 11
+  m_firstOverflowCharacterIndex: 12
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1493,12 +1493,12 @@ MonoBehaviour:
   m_margin: {x: 15.284729, y: 104.36606, z: 132.3279, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1455444775}
-    characterCount: 837
+    characterCount: 855
     spriteCount: 0
-    spaceCount: 141
-    wordCount: 126
+    spaceCount: 142
+    wordCount: 127
     linkCount: 0
-    lineCount: 33
+    lineCount: 34
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

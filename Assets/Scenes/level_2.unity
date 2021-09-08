@@ -2040,7 +2040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Rezept: Blanc Manger und B\xF6hmische Erbsen"
+  m_text: 'Rezept: Blanc Manger und Boehmische Erbsen'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
   m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
@@ -2070,7 +2070,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 19.85
+  m_fontSize: 19.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2111,14 +2111,14 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 1.9860535, w: 0.7770691}
   m_textInfo:
     textComponent: {fileID: 138298284}
-    characterCount: 41
+    characterCount: 42
     spriteCount: 0
     spaceCount: 5
     wordCount: 6
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
