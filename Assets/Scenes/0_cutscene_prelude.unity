@@ -153,6 +153,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &208436950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208436951}
+  - component: {fileID: 208436953}
+  - component: {fileID: 208436952}
+  m_Layer: 5
+  m_Name: TMP SubMeshUI [ThaleahFat_Asset Material + LiberationSans SDF Atlas]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &208436951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208436950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1455444774}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &208436952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208436950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_material: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
+  m_isDefaultMaterial: 0
+  m_padding: 11.25
+  m_canvasRenderer: {fileID: 208436953}
+  m_TextComponent: {fileID: 1455444775}
+  m_materialReferenceIndex: 1
+--- !u!222 &208436953
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208436950}
+  m_CullTransparentMesh: 0
 --- !u!1001 &229658659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1385,7 +1458,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 208436951}
   m_Father: {fileID: 1861598787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1414,9 +1488,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Fuersten: \r\nUnser Land wird nicht gut regiert von dir, Fuerst Richard!
-    Die Buerokratie vernichtet uns. Wir m\xFCssen endlich einen Koenig haben! Der
-    Prinz ist alt genug - er soll heiraten und regieren!\r\n\r\nFuersten: \r\nWir
-    alle haben schoene Toechter. Von diesen wird er eine erw\xE4hlen.\r\n\r\nRichard:\r\nIch
+    Die Buerokratie vernichtet uns. Wir muessen endlich einen Koenig haben! Der Prinz
+    ist alt genug - er soll heiraten und regieren!\r\n\r\nFuersten: \r\nWir alle
+    haben schoene Toechter. Von diesen wird er eine erw\xE4hlen.\r\n\r\nRichard:\r\nIch
     stehe dem Thron am naechsten. Er wird meine Tochter heiraten.\r\n\r\nFuersten:
     \r\nWarum sollen wir dem zustimmen?\r\n\r\nRichard:\r\nUm euch zu \xFCberzeugen,
     veranstalte ich ein Festmahl mit den besten Speisen eurer Fuerstentuemer.\r\n\r\nRichard:
@@ -1426,8 +1500,9 @@ MonoBehaviour:
     Koch des Landes wird gesucht, um auf der Hochzeit zu kochen. Sein Gewicht wird
     in Safran aufgewogen werden."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
+  m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1493,21 +1568,21 @@ MonoBehaviour:
   m_margin: {x: 15.284729, y: 104.36606, z: 132.3279, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1455444775}
-    characterCount: 855
+    characterCount: 856
     spriteCount: 0
     spaceCount: 142
     wordCount: 127
     linkCount: 0
-    lineCount: 34
+    lineCount: 33
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 208436952}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
