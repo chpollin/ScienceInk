@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281c576393bb5a4e8f7c6b42cf9e289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  second: 25
+  second: 41
 --- !u!4 &733783484
 Transform:
   m_ObjectHideFlags: 0
@@ -1521,9 +1521,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rezept: Morcheln im Winter und Rotkraut und Erde und Schnee
-
-'
+  m_text: "Rezept: Morcheln im Winter und Rotkraut und Erde und Schnee\n\nEin gutes
+    Gericht\r\n\nNimm Huehnerbrust, schniede sie klein und stosse sie in einem Moerser.
+    \n\nGib ein wenig Mehl dazu, grobes Brot, Pfeffer oder Ingwer, ausreichend Salz,
+    ein Ei oder zwei, je nach Menge und roeste das gut ab. \n\nSchneide zwei Hoelzchen,
+    ungefaehr fingerlang, wie einen Schaft und vorne schoen rund. \n\nNimm von der
+    geroesteten Masse, ungefaehr so viel wie eine Morchel gross ist und forme es
+    in der Hand rund und forme es um den Spiess wie eine Morchel. \n\nDruecke es
+    aussen fest, damit es knusprig wird. Frittiere es mit dem Staebchen in einer
+    Pfanne. Waehrend das frittiert wird, bereite den zweiten Spiess vor, wenn du
+    den einen herausnimmst, lege den anderen hinein. Mach davon wieviel du benoetigst.
+    \n\nWenn sie fertig sind, vermische ein Gehacktes Mus mit Butter und f\xFClle
+    die Morcheln. Stecke sie quer an einen Bratenspiess, mach sie nochmals heiss
+    und betrauufle sie mit Butter. \n\nServiere sie so. Auf die gleiche Weise kannst
+    du Morcheln aus Hecht oder Lachs machen, oder woraus du willst.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
   m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
@@ -1569,7 +1580,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 60
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1593,14 +1604,14 @@ MonoBehaviour:
   m_margin: {x: 15.284729, y: 104.36606, z: 132.3279, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1421004539}
-    characterCount: 60
+    characterCount: 1072
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 10
+    spaceCount: 190
+    wordCount: 176
     linkCount: 0
-    lineCount: 1
+    lineCount: 29
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}

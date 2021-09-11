@@ -62,22 +62,36 @@ public class ItemDatabase : MonoBehaviour
             new Item(26, "Muskatnuss", "Ein weiteres Importgewuerz, das der Samen des Muskatnussbaumes ist. Er ist von einer roten Huelle umgeben, die als das Gewuerz Macis bekannt ist.", 11),
             new Item(27, "Hufeisen", "Meister Hans muss den perfekten Krummen Krapfen formen!", 12),
             ///////////
-            // Rezept 4
-            new Item(28, "Milch", "Milch", 0),
-            new Item(29, "Brot", "Brot", 1),
-            new Item(30, "Gelberuebe", "Gelberuebe", 2),
-            new Item(31, "Petersilwurzel", "Petersilwurzel",3),
-            new Item(32, "Apfelsaft", "Apfelsaft", 4),
-            new Item(33, "Zwiebel", "Zwiebel", 5),
-            new Item(34, "Olivenoel", "Olivenoel", 6),
-            new Item(35, "Rindfleisch", "Rindfleisch", 7),
-            new Item(36, "Haselnuss", "Haselnuss", 8),
-            new Item(37, "Kochloeffel", "Kochloeffel", 9),
-            new Item(38, "Bratenssaft", "Bratenssaft", 10),
-            new Item(39, "Pfeffer", "Pfeffer", 11),
-            new Item(40, "Salz", "Salz", 12),
-            new Item(41, "Schweineschmalz", "Schweineschmalz", 13),
-            new Item(42, "Wein", "Wein", 14)
+            // Rezept Level 4 - Morcheln im Winter und Rotkraut und Erde und Schnee
+            new Item(28, "Milch", "Milch ist nicht lange haltbar und wurde immer sehr schnell weiterverarbeitet: gesaeuert, zu Butter oder zu Kaese.", 0),
+            new Item(29, "Weissbrot", "Dieses Brot wird aus sehr fein ausgesiebten Mehl hergestellt, das sehr aufwaendig produziert werden muss. Daher ist Weissbrot eine typische Speise des Adels.", 1),
+            new Item(30, "Gelberuebe", "Sie ist eine spezielle Zuechtung und ist mit der Karotte verwandt. Sie ist nicht so suess wie die orange Karotte.", 2),
+            new Item(31, "Petersilwurzel", "Peterwurzen, wie sie bei uns heisst, ist eines der wenigen Wurzelgemuese, die in den mittelalterlichen Rezepten genannt wird.",3),
+            new Item(32, "Apfelsaft", "Saft aus Aepfeln ist nur haltbar, wenn man ihn pasteurisiert, also bei ca. 78° Celsius abkocht. Apfelsaft gaert wegen der Fruchtzucker schnell und wird zu alkohlhaltigem Most.", 4),
+            new Item(33, "Zwiebel", "Sie ist eine Zuchtform der gelben Zwiebel. Ihre aeussere Schale kann man auch zum Faerben benutzen.", 5),
+            new Item(34, "Olivenoel", "Olivenuel wurde aus dem Mittelmeerraum (vorwiegend Spanien) in Tonkruegen oder Holzfaessern importiert und war dementsprechend teuer.", 6),
+            new Item(35, "Rindfleisch", "Rinderhaltung wurde erst im Spaetmittelalter intensiv betrieben, da durch die klimatische Abkuehlung das waermeliebende Getreide nicht mehr ausreichend wuchs.", 7),
+            new Item(36, "Haselnuss", "Haselnuesse sind im Mittelalter wichtige Oelfruechte. Der Haselstrauch lieferte wertvolles sehr biegbares und belastbares Holz.", 8),
+            new Item(37, "Kochloeffel", "Der Kochloeffelstiel kann als Form fuer die Morchel und zum Frittieren verwendet werden.", 9),
+            new Item(38, "Bratenssaft", "Bratensaft entsteht, wenn durch die Hitze die Muskelfasern im Braten angespannt werden und die darin enthaltene Fluessigkeit herausgepresst wird. Durch Hitze entstehen leckere Roestaromen.", 10),
+            new Item(39, "Pfeffer", "ToDo", 11),
+            new Item(40, "Salz", "ToDo", 12),
+            new Item(41, "Schweineschmalz", "Schmalz wird aus Schweinefett gewonnen, das erhitzt wird, damit das darin enthaltene Wasser verdampft. Es ist bei kuehler Lagerung sehr, sehr lange haltbar.", 13),
+            new Item(42, "Wein", "ToDo", 14),
+            new Item(43, "Ei", "In Kombination mit Staerke, die z. B. in Mehl enthalten ist, ist Ei durch das Eiweiss und das Fett im Dotter ein wunderbares Bindemittel.", 15),
+            new Item(44, "Pastinake", "Die Pastinake ist sehr staerkehaltig, sie schmeckt suesslich und kann zum Eindicken von Fluessigkeiten verwendet werden. Vom Aussehen her kann man Pastinaken leicht mit Petersilienwurzeln verwechseln.", 16),
+            new Item(45, "Rotkraut", "Rotkraut ist eine Zuchtform des Kohlkopfes, der eigentlich hellgruen bis weisslich ist. Diese Sorte stammt aus dem Mittelmeerraum und ist seit dem Mittelalter bei uns bekannt.", 16),
+            ///////////
+            // Rezept Level 5 - Pastete
+            new Item(46, "Weizenmehl", "Weizen, aber vor allem Hartweizen, haben viel mehr Gluten (Klebereiweiss) als andere Getreidesorten und eignen sich daher sehr gut fuers Backen. Nudelmehl aus Hartweizen kann nur mit Wasser, also ohne Ei, verknetet werden.", 0),
+            new Item(47, "Olivenoel", "Olivenoel wurde nicht nur als Lebensmittel verwendet, sondern auch zur Herstellung von Salben oder als Lampenbrennstoff.", 1),
+            new Item(48, "Honig", "Ein Teil der mittelalterlichen Honigernte wurde von Zeidlern, also Waldimkern, die wilde Bienenvoelker beernteten, gewonnen.", 2),
+            new Item(49, "Tauwasser", "Tauwasser wurde als das reinste Wasser bezeichnet, da es scheinba r aus dem Nichts entsteht. Es wurde als Medizin benutzt.", 3),
+            new Item(50, "Hefe", "Hefe ist ein Pilz, der z. B. beim Vergaeren von Bier entsteht. Im Teig baut die Hefe Zucker ab, die Gase, die dabei entstehen lassen den Teig aufgehen. Sie sind verantwortlich fuer die nach dem Backen sichtbaren Poren im Teig.", 4),
+            new Item(51, "Rindfleisch", "Rinder wurde in den weiten Wiesensteppen des Ostens (z. B. heutiges Ungarn) gezuechtet. Die Tiere wurden in grossen Herden nach Westen getrieben. Sie waren wesentlich kleiner als Rinder heute.", 5),
+            new Item(52, "Zwiebel", "Weil Zwiebeln in der Erde wachsen, galten sie vor allem als Nahrung der aermeren Bevoelkerung. Sie waren aber auch eine wichtige Arzneipflanze, z. B. gegen Erkaeltungen.", 6),
+            new Item(53, "Wurzelgemuese", "Wegen ihrer guten Lagerfaehigkeit und ihrem Naehrwert waren alle Wurzelgemuese (z. B. Rueben, Rettich, Sellerie) ein wichtiger Bestandteil der mittelalterlichen Ernaehrung.", 7)
+
         };
     }
 }
