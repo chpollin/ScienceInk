@@ -10,11 +10,6 @@ public class MainMenu : MonoBehaviour
     public GameObject creditPanel;
 
 
-    void Start()
-    {
-        creditPanel.SetActive(false);
-    }
-
    public void PlayGame ()
    {
        SceneManager.LoadScene("0_cutscene_prelude");

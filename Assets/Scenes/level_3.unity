@@ -117606,6 +117606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01fd4d95dd2bfc440ab7fded2f2b9938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  creditPanel: {fileID: 0}
 --- !u!4 &1132362221 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7519944179200015550, guid: b94f335e15bd536439b0719687a6b7d6,
@@ -119981,6 +119982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01fd4d95dd2bfc440ab7fded2f2b9938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  creditPanel: {fileID: 0}
 --- !u!1 &1371768219
 GameObject:
   m_ObjectHideFlags: 0
@@ -124835,7 +124837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1827431200
 RectTransform:
   m_ObjectHideFlags: 0

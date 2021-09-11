@@ -3800,8 +3800,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -529}
-  m_SizeDelta: {x: 744.0974, y: 110.018005}
+  m_AnchoredPosition: {x: -62.4, y: -529}
+  m_SizeDelta: {x: 587.43164, y: 110.018005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378740231
 MonoBehaviour:
@@ -3822,11 +3822,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Rezept: Blanc Manger\r\n\r\nEine weisse Speise. \r\n\r\nWer eine weisse
-    Speise machen will, der braucht dicke Mandelmilch und zerfaserte Huehnerbrust.
-    \r\n\r\nGib das in die Mandelmilch. \r\n\r\nVerruehre das mit Reismehl.\r\n\r\nGib
-    genug Schmalz und genug Zucker dazu. \r\n\r\nDas ist ein Blanc Manger (eine weisse
-    Speise).\r\n\r\nRezept: Boehmische Erbsen"
+  m_text: "Blanc Manger und Boehmische Erbsen\n\r\nRezept: Blanc Mange\n\nEine weisse
+    Speise. \r\n\r\nWer eine weisse Speise machen will, der braucht dicke Mandelmilch
+    und zerfaserte Huehnerbrust. \r\n\r\nGib das in die Mandelmilch. Verruehre das
+    mit Reismehl.\r\n\r\nGib genug Schmalz und genug Zucker dazu. \r\n\r\nDas ist
+    ein Blanc Manger (eine weisse Speise).\r\n\r\nRezept: Boehmische Erbsen\n\nNimm
+    reife Erbsen und klaube sie sauber aus und reinige sie ordentlich mit Lauge.
+    Koche die Erbsen gut. \n\nWenn die Erbsen fertig gekocht sind, brauchst du auch
+    gutes gekochtes Schweinefleisch, schoene Graupen, und wenn du diese nicht hast,
+    dann nimm gute Gerste, die trocken gekocht sein soll. \n\nNimm einen hoelzernen
+    Loeffel und ruehre die Erbsen in Topf, dass sie wei\xDF werden und verduenne
+    sie mit Schweinebr\xFChe, salze sie erst wenn du sie anrichten willst. \n\nNimm
+    das Schweinefleisch, schneide es der Laenge nach auf und braeune es ordentlich
+    in einer Pfanne. \n\nWenn du anrichten willst, nimm die Gerste, die nicht gesalzen
+    sein soll, und richte sie in der Schuessel trocken an. Nimm nun das Schweinefleisch
+    und lege es oben auf die Gerste. Die Erbsen sollen auch warm sein, die richte
+    in einer eigenen Schuessel an, aber sie sollen nicht zu dick sein. Gib beides
+    miteinander als Essen hin."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
   m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
@@ -3872,7 +3884,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 22
+  m_firstOverflowCharacterIndex: 37
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3893,17 +3905,17 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 15.284729, y: 104.36606, z: 132.3279, w: -28.7335}
+  m_margin: {x: 15.284729, y: 84.7495, z: 1.2858757, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1378740231}
-    characterCount: 330
+    characterCount: 1255
     spriteCount: 0
-    spaceCount: 56
-    wordCount: 46
+    spaceCount: 216
+    wordCount: 198
     linkCount: 0
-    lineCount: 16
+    lineCount: 38
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -6862,7 +6874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281c576393bb5a4e8f7c6b42cf9e289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  second: 25
+  second: 55
 --- !u!4 &1762295793
 Transform:
   m_ObjectHideFlags: 0
