@@ -79,7 +79,6 @@ public class ItemDatabase : MonoBehaviour
             new Item(41, "Schweineschmalz", "Schmalz wird aus Schweinefett gewonnen, das erhitzt wird, damit das darin enthaltene Wasser verdampft. Es ist bei kuehler Lagerung sehr, sehr lange haltbar.", 13),
             new Item(42, "Wein", "ToDo", 14),
             new Item(43, "Ei", "In Kombination mit Staerke, die z. B. in Mehl enthalten ist, ist Ei durch das Eiweiss und das Fett im Dotter ein wunderbares Bindemittel.", 15),
-            new Item(44, "Pastinake", "Die Pastinake ist sehr staerkehaltig, sie schmeckt suesslich und kann zum Eindicken von Fluessigkeiten verwendet werden. Vom Aussehen her kann man Pastinaken leicht mit Petersilienwurzeln verwechseln.", 16),
             new Item(45, "Rotkraut", "Rotkraut ist eine Zuchtform des Kohlkopfes, der eigentlich hellgruen bis weisslich ist. Diese Sorte stammt aus dem Mittelmeerraum und ist seit dem Mittelalter bei uns bekannt.", 16),
             ///////////
             // Rezept Level 5 - Pastete

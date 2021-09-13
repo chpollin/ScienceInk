@@ -13,7 +13,7 @@ public class PreludeCutscene : MonoBehaviour
  
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(54f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 

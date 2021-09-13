@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_text: "Fuersten: \r\nUnser Land wird nicht gut regiert von dir, Fuerst Richard!
     Die Buerokratie vernichtet uns. Wir muessen endlich einen Koenig haben! Der Prinz
     ist alt genug - er soll heiraten und regieren!\r\n\r\nFuersten: \r\nWir alle
-    haben schoene Toechter. Von diesen wird er eine erw\xE4hlen.\r\n\r\nRichard:\r\nIch
+    haben schoene Toechter. Von diesen wird er eine erwaehlen.\r\n\r\nRichard:\r\nIch
     stehe dem Thron am naechsten. Er wird meine Tochter heiraten.\r\n\r\nFuersten:
     \r\nWarum sollen wir dem zustimmen?\r\n\r\nRichard:\r\nUm euch zu ueberzeugen,
     veranstalte ich ein Festmahl mit den besten Speisen eurer Fuerstentuemer.\r\n\r\nRichard:
@@ -1568,14 +1568,14 @@ MonoBehaviour:
   m_margin: {x: 15.284729, y: 104.36606, z: 132.3279, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1455444775}
-    characterCount: 859
+    characterCount: 860
     spriteCount: 0
     spaceCount: 142
     wordCount: 127
     linkCount: 0
     lineCount: 33
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
