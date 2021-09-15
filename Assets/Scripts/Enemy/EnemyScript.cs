@@ -12,6 +12,7 @@ public class EnemyScript : MonoBehaviour
     private Animator animator;
         
    ////////////////////////////////////////////////
+   //ToDo: es gibt zwei collider die zweimal feuern? ist das der fehler? 
    void OnTriggerEnter2D(Collider2D collider)
     {
         if(_triggered){
