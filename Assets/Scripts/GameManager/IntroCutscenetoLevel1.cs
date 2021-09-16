@@ -11,7 +11,12 @@ public class IntroCutscenetoLevel1 : MonoBehaviour
     //////////////////////////////////
     public void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);  
+        }
         StartCoroutine("Wait");
+       
     }
  
     IEnumerator Wait()

@@ -10,21 +10,23 @@ public class MainMenu : MonoBehaviour
     public GameObject creditPanel;
 
 
-   public void PlayGame ()
+   public void PlayGame()
    {
        SceneManager.LoadScene("0_cutscene_prelude");
    }
 
-    public void QuitGame ()
+    public void QuitGame()
    {
        Application.Quit();
+       Debug.Log("Spiel beendet");
    }
 
     //////////////////////////////////
-    public void RestartLevel ()
+    public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);  
     }
+
 
     //////////////////////////////////
     public void BacktoMainMenu()
@@ -49,5 +51,6 @@ public class MainMenu : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    
 
 }

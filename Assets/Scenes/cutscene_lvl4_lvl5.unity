@@ -463,8 +463,8 @@ MonoBehaviour:
     willst, schneide mageres Rindfleisch klein. Ein Drittel der Menge ist Fett, zwei
     Drittel Fleisch.\r\n\r\nNimm dazu auch Voegel, Tauben oder Huehner und mische
     es mit ausreichend Gewuerz ab. \r\n\r\nMach einen Pastetentopf aus Roggenmehl,
-    das mit hei\xDFem Wasser verknetet wird. Gib die Fuelle in den Pastetentopf,
-    decke diesen mit einem Teigblatt ab, in das du ein Loch gemacht hast. \r\n\r\nSchiebe
+    das mit heissem Wasser verknetet wird. Gib die Fuelle in den Pastetentopf, decke
+    diesen mit einem Teigblatt ab, in das du ein Loch gemacht hast. \r\n\r\nSchiebe
     es in den Ofen und lass es ausreichend backen. Auf diese Art kannst du sie auch
     mit guten Fischen fuellen. \r\n\r\nWenn du kein Fett hast, nimm stattdessen Butter.
     Schneide die Fische viel groesser als das Rindfleisch und versalze es nicht."
@@ -537,14 +537,14 @@ MonoBehaviour:
   m_margin: {x: 15.284729, y: 104.36606, z: 159.77943, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 254314808}
-    characterCount: 690
+    characterCount: 691
     spriteCount: 0
     spaceCount: 116
     wordCount: 109
     linkCount: 0
     lineCount: 20
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
