@@ -65,13 +65,14 @@ public class PlayerManager : MonoBehaviour
      void Update()
     {
         // get the direction the player looks (maybe hack? sry^^)
-        if(Input.GetKeyDown("a"))
+        // if "a" is pressed and you press arrow right, while keeping "a" pressed, shoots almond in arrow direction.
+        if(Input.GetKeyDown("a") || Input.GetKeyDown(KeyCode.LeftArrow) )
             {isFacingLeft = true;}
-        else if(Input.GetKeyDown("d"))
+        else if(Input.GetKeyDown("d") || Input.GetKeyDown(KeyCode.RightArrow) )
             {isFacingLeft = false;} 
          // mousclick left = Fire1M for firing almond
          // || Input.GetKeyDown(KeyCode.Mouse0)
-        if(Input.GetKeyDown("e") )
+        if(Input.GetKeyDown("e"))
         {
             // score = number of collected almonds; shooting almond -1 to score
             if(score > 0)
