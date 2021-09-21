@@ -3700,7 +3700,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 361368472}
-        m_MethodName: QuitGame
+        m_MethodName: ScienceInk
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -34,6 +34,12 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    //////////////////////////////////
+    public void ScienceInk()
+    {
+        Application.OpenURL("https://science-ink.uni-graz.at/de/");
+    }
+
 
     //////////////////////////////////
     public void Credits()

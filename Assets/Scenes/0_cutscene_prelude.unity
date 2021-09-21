@@ -792,7 +792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317.7, y: -187.6}
+  m_AnchoredPosition: {x: 310, y: -187.6}
   m_SizeDelta: {x: 2571.3132, y: 659.19415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &794031295
@@ -1465,7 +1465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -529}
+  m_AnchoredPosition: {x: 6, y: -507}
   m_SizeDelta: {x: 744.0974, y: 110.018005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455444775
@@ -1490,15 +1490,15 @@ MonoBehaviour:
   m_text: "Fuersten: \r\nUnser Land wird nicht gut regiert von dir, Fuerst Richard!
     Die Buerokratie vernichtet uns. Wir muessen endlich einen Koenig haben! Der Prinz
     ist alt genug - er soll heiraten und regieren!\r\n\r\nFuersten: \r\nWir alle
-    haben schoene Toechter. Von diesen wird er eine erwaehlen.\r\n\r\nRichard:\r\nIch
-    stehe dem Thron am naechsten. Er wird meine Tochter heiraten.\r\n\r\nFuersten:
+    haben schoene Toechter. \nVon diesen wird er eine erwaehlen.\r\n\r\nRichard:\r\nIch
+    stehe dem Thron am naechsten. \nEr wird meine Tochter heiraten.\r\n\r\nFuersten:
     \r\nWarum sollen wir dem zustimmen?\r\n\r\nRichard:\r\nUm euch zu ueberzeugen,
-    veranstalte ich ein Festmahl mit den besten Speisen eurer Fuerstentuemer.\r\n\r\nRichard:
-    \r\nDas wird euch ueberzeugen und ihr werdet mich unterstuetzen.\r\n\r\nFuersten:
-    \r\nYayy! Ein Festmahl!! \r\n\r\nFuersten: \r\nAber das wird dir nur gelingen,
-    wenn du den besten Koch dafuer einstellen kannst.\r\n\r\nRichard: \r\nDer beste
-    Koch des Landes wird gesucht, um auf der Hochzeit zu kochen. Sein Gewicht wird
-    in Safran aufgewogen werden."
+    veranstalte ich ein Festmahl mit den besten Speisen eurer Fuerstentuemer.\r\n\r\nRichard:\r\nDas
+    wird euch ueberzeugen und ihr werdet mich unterstuetzen.\r\n\r\nFuersten: \r\nHaha!\nYayy!
+    \nEin Festmahl!! \r\n\r\nAber das wird dir nur gelingen, \nwenn du den besten
+    Koch dafuer einstellen kannst.\r\n\r\nRichard: \r\nDer beste Koch des Landes
+    wird gesucht,\num auf der Hochzeit zu kochen. Sein Gewicht wird in Safran aufgewogen
+    werden."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
   m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
@@ -1568,12 +1568,12 @@ MonoBehaviour:
   m_margin: {x: 15.284729, y: 104.36606, z: 132.3279, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1455444775}
-    characterCount: 860
+    characterCount: 857
     spriteCount: 0
-    spaceCount: 142
+    spaceCount: 144
     wordCount: 127
     linkCount: 0
-    lineCount: 33
+    lineCount: 35
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1995,7 +1995,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 8, y: 602.1}
+  m_AnchoredPosition: {x: 0, y: 602.1}
   m_SizeDelta: {x: 726.7671, y: 1200.0415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861598788
