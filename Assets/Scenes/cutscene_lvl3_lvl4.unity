@@ -185,7 +185,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &74212178
 GameObject:
@@ -515,7 +515,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281c576393bb5a4e8f7c6b42cf9e289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  second: 41
+  second: 80
+  audio_1_delay: 1
+  audio_2_delay: 100
+  audio_1: {fileID: 825052627}
+  audio_2: {fileID: 825052627}
 --- !u!4 &733783484
 Transform:
   m_ObjectHideFlags: 0
@@ -528,7 +532,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &766186265
 GameObject:
@@ -640,6 +644,133 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 2070756178}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &825052625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825052626}
+  - component: {fileID: 825052627}
+  m_Layer: 0
+  m_Name: 05_morcheln_fnhdt
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &825052626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825052625}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -101.517006, y: -8.259572, z: -166.05371}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167131249}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &825052627
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825052625}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3c88341fea3845347a8136b5f4193255, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.862
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.892
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &962518216
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +1026,7 @@ RectTransform:
   - {fileID: 1121594009}
   - {fileID: 1069751418}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1270,6 +1401,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121594008}
   m_CullTransparentMesh: 0
+--- !u!1 &1167131248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167131249}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167131249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167131248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 115.88701, y: 8.851984, z: 74.36035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 825052626}
+  - {fileID: 2030505309}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271016894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,18 +1849,18 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Rezept: Morcheln im Winter und Rotkraut und Erde und Schnee\n\nEin gutes
     Gericht\r\n\nNimm Huehnerbrust, schneide sie klein und stosse sie in einem Moerser.
-    \n\nGib ein wenig Mehl dazu, grobes Brot, Pfeffer oder Ingwer, ausreichend Salz,
-    ein Ei oder zwei, je nach Menge und roeste das gut ab. \n\nSchneide zwei Hoelzchen,
+    \n\nGib ein wenig Mehl dazu, grobes Brot, Pfeffer oder Ingwer, ausreichend Salz,\nein
+    Ei oder zwei, je nach Menge und roeste das gut ab. \n\nSchneide zwei Hoelzchen,
     ungefaehr fingerlang, wie einen Schaft und vorne schoen rund. \n\nNimm von der
     geroesteten Masse, ungefaehr so viel wie eine Morchel gross ist und forme es
     in der Hand rund und forme es um den Spiess wie eine Morchel. \n\nDruecke es
     aussen fest, damit es knusprig wird. Frittiere es mit dem Staebchen in einer
-    Pfanne. Waehrend das frittiert wird, bereite den zweiten Spiess vor, wenn du
-    den einen herausnimmst, lege den anderen hinein. Mach davon wieviel du benoetigst.
-    \n\nWenn sie fertig sind, vermische ein Gehacktes Mus mit Butter und fuelle die
-    Morcheln. Stecke sie quer an einen Bratenspiess, mach sie nochmals heiss und
-    betraeufle sie mit Butter. \n\nServiere sie so. Auf die gleiche Weise kannst
-    du Morcheln aus Hecht oder Lachs machen, oder woraus du willst.\n"
+    Pfanne.\n\nWaehrend das frittiert wird, bereite den zweiten Spiess vor, wenn
+    du den einen herausnimmst, lege den anderen hinein.\n\n\nMach davon wieviel du
+    benoetigst. \n\n\nWenn sie fertig sind, vermische ein Gehacktes Mus mit Butter
+    und fuelle die Morcheln. \n\nStecke sie quer an einen Bratenspiess, mach sie
+    nochmals heiss und betraeufle sie mit Butter. \n\nServiere sie so. Auf die gleiche
+    Weise kannst du Morcheln aus Hecht oder Lachs machen,\noder woraus du willst.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
   m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
@@ -1764,15 +1927,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 15.284729, y: 104.36606, z: 150.62895, w: -28.7335}
+  m_margin: {x: 15.284729, y: 101.41276, z: 150.62895, w: -28.7335}
   m_textInfo:
     textComponent: {fileID: 1421004539}
-    characterCount: 1073
+    characterCount: 1079
     spriteCount: 0
-    spaceCount: 190
+    spaceCount: 196
     wordCount: 176
     linkCount: 0
-    lineCount: 31
+    lineCount: 37
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -2080,7 +2243,7 @@ Transform:
   - {fileID: 74212179}
   - {fileID: 984833210}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1613793514
 GameObject:
@@ -2545,7 +2708,7 @@ Transform:
   - {fileID: 1998919233}
   - {fileID: 1271016895}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1951024800
 GameObject:
@@ -2600,7 +2763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   repeat: 0
-  scrollSpeed: 0.45
+  scrollSpeed: 0.32
   textToScroll: {fileID: 1421004537}
 --- !u!114 &1951024803
 MonoBehaviour:
@@ -3854,7 +4017,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 11f54f451adc08f458e084c4185f5d86, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.143
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3945,12 +4108,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030505307}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.20070091, y: -1.9905453, z: -4.5045056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -116.08771, y: -10.842529, z: -78.86486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1167131249}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2070756178
 PrefabInstance:
