@@ -22030,8 +22030,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100.5}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 8.08, y: -151.72}
+  m_SizeDelta: {x: 518.7206, y: 217.7124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336913155
 MonoBehaviour:
@@ -22064,7 +22064,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Move:\t\tw-a-s-d\nShoot:\t\te\nQuestlog:\tq"
+  m_text: "Move:\t\tw-a-s-d\nShoot:\t\te\nQuestlog:\tq\n\nZutaten\n[ ] Petersilie\n[
+    ] Bohnenkraut\n[ ] Mangold\n[ ] Salbei\n[ ] Schnittlauch"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb, type: 2}
   m_sharedMaterial: {fileID: -2313170018779460446, guid: 528e3b1f3e9a3ce46bfc0b8558b126fb,
@@ -22093,7 +22094,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 34.15
+  m_fontSize: 21.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -22131,15 +22132,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -215.867, y: 0, z: 0, w: 0}
+  m_margin: {x: 2.5322042, y: 0, z: 14.238398, w: 3.6287732}
   m_textInfo:
     textComponent: {fileID: 1336913156}
-    characterCount: 36
+    characterCount: 116
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 6
+    spaceCount: 24
+    wordCount: 12
     linkCount: 0
-    lineCount: 3
+    lineCount: 10
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

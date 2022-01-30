@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   repeat: 0
-  scrollSpeed: 0.35
+  scrollSpeed: 0.4
   textToScroll: {fileID: 1455444773}
 --- !u!1001 &1197419280
 PrefabInstance:

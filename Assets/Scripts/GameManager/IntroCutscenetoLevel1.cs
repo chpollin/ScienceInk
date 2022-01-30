@@ -11,7 +11,10 @@ public class IntroCutscenetoLevel1 : MonoBehaviour
     public int audio_2_delay = 0;
     public AudioSource audio_1;
     public AudioSource audio_2;
-
+    public AudioSource audio_3;
+    public AudioSource audio_4;
+    public  GameObject original;
+    public  GameObject dialog;
     //////////////////////////////////
     public void Start(){
         audio_1.PlayDelayed(audio_1_delay);
@@ -39,6 +42,16 @@ public class IntroCutscenetoLevel1 : MonoBehaviour
     public void LoadOnClick()
     {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);  
+    }
+
+    public void getOriginal()
+    {
+      dialog.SetActive(false);
+      audio_1.Stop();
+      audio_2.Stop();
+      audio_3.PlayDelayed(1);
+      audio_4.PlayDelayed(16);
+      original.SetActive(true);
     }
 
 }

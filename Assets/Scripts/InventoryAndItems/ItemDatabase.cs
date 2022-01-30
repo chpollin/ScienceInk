@@ -74,10 +74,10 @@ public class ItemDatabase : MonoBehaviour
             new Item(36, "Haselnuss", "Haselnuesse sind im Mittelalter wichtige Oelfruechte. Der Haselstrauch lieferte wertvolles sehr biegbares und belastbares Holz.", 8),
             new Item(37, "Kochloeffel", "Der Kochloeffelstiel kann als Form fuer die Morchel und zum Frittieren verwendet werden.", 9),
             new Item(38, "Bratenssaft", "Bratensaft entsteht, wenn durch die Hitze die Muskelfasern im Braten angespannt werden und die darin enthaltene Fluessigkeit herausgepresst wird. Durch Hitze entstehen leckere Roestaromen.", 10),
-            new Item(39, "Pfeffer", "ToDo", 11),
-            new Item(40, "Salz", "ToDo", 12),
+            new Item(39, "Pfeffer", "Der Legende nach wohnen in den Pfefferbaeumen Slangen, die bei der Ernte mit Feuer vertrieben werden. Deshalb sind Pfefferkoerner schwarz.", 11),
+            new Item(40, "Salz", "Nach der Gewinnung wurde Salz in Faessern per Schiff oder mit Lasttieren zu den Maerkten gebracht. Es war das ganze Mittelalter über eine wertvolle Handelsware.", 12),
             new Item(41, "Schweineschmalz", "Schmalz wird aus Schweinefett gewonnen, das erhitzt wird, damit das darin enthaltene Wasser verdampft. Es ist bei kuehler Lagerung sehr, sehr lange haltbar.", 13),
-            new Item(42, "Wein", "ToDo", 14),
+            new Item(42, "Apfel", "Aepfel waren als gut lagerfähiges Obst sehr wichtig. Vor allem in Kloestern wurden neue Sorten gezüchtet und danach in ganz Europa verbreitet.", 14),
             new Item(43, "Ei", "In Kombination mit Staerke, die z. B. in Mehl enthalten ist, ist Ei durch das Eiweiss und das Fett im Dotter ein wunderbares Bindemittel.", 15),
             new Item(45, "Rotkraut", "Rotkraut ist eine Zuchtform des Kohlkopfes, der eigentlich hellgruen bis weisslich ist. Diese Sorte stammt aus dem Mittelmeerraum und ist seit dem Mittelalter bei uns bekannt.", 16),
             ///////////
