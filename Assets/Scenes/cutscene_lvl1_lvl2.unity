@@ -4082,8 +4082,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -175, y: -13.905}
-  m_SizeDelta: {x: 378.5592, y: 390.1897}
+  m_AnchoredPosition: {x: -162.85, y: 0.00000047684}
+  m_SizeDelta: {x: 402.91486, y: 421.3454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120164759
 MonoBehaviour:
@@ -4106,26 +4106,32 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 41ed2f96bcb04024cb1eae1ff8746eb5, type: 3}
-    m_FontSize: 18
+    m_FontSize: 16
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Einen blamensir. \nDer woelle machen einen blamen\nser. der neme dicke
     mandelmilch. \nvnd huener brueste geceyset. vnd tuo \ndaz in die mandelmilch.
     vnd ruere daz\nmit ris mele. vnd smaltz genuoc. vnd \nzuckers tuo genuoc dar
-    zvo. daz ist ein\nblamenser.\n\n\n\nEin behamysch arbaiss\r\nNIm guet arbaiss
-    vnd erchlaub sy schoan vnd mach sy schon mit einer kaltguesz nym dy arbaiss vnd
-    sewd sy schoen trukchen wann sy gesoten seynn nu mues du haben ein guetz gesoten
-    sweinen vleisch vnd muest haben guet gruppem ob du der nicht hast so nym ein
-    schoene gersten die sol trukchen gesoten sein nu nym ein hualczenn leffel vnd
-    czeuch dy arbaiss in dem hefen daz sy weisz werden mach"
+    zvo. daz ist ein\nblamenser.\n\nEin behamysch arbaiss\r\nNIm guet arbaiss vnd
+    erchlaub sy schoan vnd mach sy schon mit einer kaltguesz nym dy arbaiss vnd sewd
+    sy schoen trukchen wann sy gesoten seynn nu mues du haben ein guetz gesoten sweinen
+    vleisch vnd muest haben guet gruppem ob du der nicht hast so nym ein schoene
+    gersten die sol trukchen gesoten sein nu nym ein hualczenn leffel vnd czeuch
+    dy arbaiss in dem hefen daz sy weisz werden mach sie dunn mit der sweinen prue
+    vnd salcz sie nicht vncz du sie wilt anrichten nym das sweinen vleisch vnd sneid
+    daz nach der leng vnd prewun ez schon in einer phann wann du an wild richten
+    so nym die gersten die sol nicht gesalczen sein vnd richt sie trukchen auf die
+    schussel an nu nym das sweinen vleisch vnd leg ez obem auf die gersten nu sulen
+    arbais auch warmm sein die richt an auf ain schussel die sullen nicht dikch sein
+    also gib ez miteinander hin fur ein essen"
 --- !u!222 &1120164760
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4145,6 +4151,7 @@ GameObject:
   - component: {fileID: 1122410624}
   - component: {fileID: 1122410626}
   - component: {fileID: 1122410625}
+  - component: {fileID: 1122410627}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4168,8 +4175,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166, y: 97}
-  m_SizeDelta: {x: 344.79474, y: 208.79254}
+  m_AnchoredPosition: {x: 219, y: 121}
+  m_SizeDelta: {x: 299.12775, y: 176.19177}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1122410625
 MonoBehaviour:
@@ -4208,6 +4215,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122410623}
   m_CullTransparentMesh: 0
+--- !u!114 &1122410627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122410623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1187734300
 GameObject:
   m_ObjectHideFlags: 0
@@ -7921,7 +7943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281c576393bb5a4e8f7c6b42cf9e289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  second: 120
+  second: 150
   audio_1_delay: 2
   audio_2_delay: 22
   audio_1: {fileID: 1798823500}
